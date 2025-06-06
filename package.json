@@ -10,10 +10,10 @@
     "lint": "eslint . --fix",
     "format": "prettier --write src/",
     "deploy": "npm run build && gh-pages -d dist"
-
   },
   "dependencies": {
     "bootstrap": "^5.3.2",
+    "bootstrap-icons": "^1.13.1",
     "gh-pages": "^6.3.0",
     "vue": "^3.5.13",
     "vue-router": "^4.5.1"
