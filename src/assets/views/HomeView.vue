@@ -35,7 +35,7 @@
         "></div>
 
       <div class="py-24  d-flex flex-column flex-nowrap d-block  hero-section" style="
-            height: 632px;
+            height: 356px;
             background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/Hero%20Section2.png?raw=true');
             background-position: center;
             background-repeat: no-repeat;
@@ -89,19 +89,19 @@
     <div class="container-fluid bg-white">
       <div class="container">
         <div class="row mx-auto">
-          <div class="col-12">
-            <h2 class="fs-64 noto-sans-tc pt-80 mb-32 fw-bold">專業服務與方案</h2>
-          </div>
-          <!-- * 履歷健檢 -->
-          <div class="col-10 mx-auto mb-60 d-flex flex-wrap">
-            <div class="col-12 col-lg-6 position-relative" style="
+          <div class="col-12 ">
+            <h2 class="fs-64 noto-sans-tc pt-80 mb-32 fw-bold ">專業服務與方案</h2>
+
+            <!-- * 履歷健檢 lg 版 -->
+            <div class="d-none d-lg-block col-10 mx-auto mb-lg-60 d-flex flex-wrap">
+              <div class="d-none d-lg-block col-12 col-lg-6 position-relative" style="
                   height: 320px;
                   background-position: center;
                   background-repeat: no-repeat;
                   background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/photo.png?raw=true');
                 ">
-              <div class="d-none d-lg-block">
-                <div class="container bg-white d-flex flex-column px-0 py-24 position-relative service-right">
+                <div
+                  class="container bg-white d-flex flex-column px-24 py-24 position-relative service-right border-white border-1">
                   <h3 class="fs-28 fw-bolder">履歷健檢</h3>
                   <p class=" ">
                     履歷是打開機會之門的第一步。讓我協助你突顯專業技術與核心能力，並透過簡短模擬面試為你加分，讓面試官第一眼就被你吸引。
@@ -109,124 +109,148 @@
                 </div>
               </div>
             </div>
+
             <!-- * 履歷健檢手機版、平板 -->
-            <div class="d-block col-10 d-xl-none mx-auto">
-              <div class="container bg-white d-flex flex-column pt-60 pb-24 px-0 py-24 d-block d-lg-none">
-                <h3 class="fs-28 fw-bolder">履歷健檢</h3>
-                <p class=" ">
-                  履歷是打開機會之門的第一步。讓我協助你突顯專業技術與核心能力，並透過簡短模擬面試為你加分，讓面試官第一眼就被你吸引。
-                </p>
-              </div>
-            </div>
-          </div>
-          <!-- * 線上諮詢 -->
-          <div class="col-10 mx-auto mb-60 d-flex flex-wrap">
-            <div class="col-12 col-lg-6 position-relative" style="
-            background-position: center;
-            background-repeat: no-repeat;
-            background-color: white;
-                ">
-              <div class="d-none d-lg-block">
-                <div class="container bg-white d-flex flex-column px-0 py-24 position-relative service-left">
-                  <h3 class="fs-28 fw-bolder">線上諮詢</h3>
-                  <p class=" ">
-                    想快速解決前端學習瓶頸，或需要專業職涯指引？透過線上一對一諮詢，我將協助你更有方向地邁進。
+            <div class="d-block d-lg-none col-12 mb-32">
+              <img
+                src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/photo.png?raw=true"
+                alt="履歷健檢" class="w-100">
+              <div class="d-block col-10 d-xl-none mx-auto ">
+                <div class="container bg-white d-flex flex-column pt-60 pb-24 px-24 d-block d-lg-none">
+                  <h3 class="fs-28 fw-bolder">履歷健檢</h3>
+                  <p class="mb-0">
+                    履歷是打開機會之門的第一步。讓我協助你突顯專業技術與核心能力，並透過簡短模擬面試為你加分，讓面試官第一眼就被你吸引。
                   </p>
                 </div>
               </div>
             </div>
-            <div class="col-12 col-lg-6" style="
+
+            <!-- * 線上諮詢 lg 版 -->
+            <div class="col-10 mx-auto mb-60 d-flex flex-wrap mb-lg-60">
+              <div class="col-12 col-lg-6 position-relative">
+                <div class="d-none d-lg-block">
+                  <div class="container bg-white d-flex flex-column px-24 py-24 position-relative service-left">
+                    <h3 class="fs-28 fw-bolder">線上諮詢</h3>
+                    <p class=" ">
+                      想快速解決前端學習瓶頸，或需要專業職涯指引？透過線上一對一諮詢，我將協助你更有方向地邁進。
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="d-none d-lg-block col-lg-6" style="
             height: 320px;
             background-position: center;
             background-repeat: no-repeat;
             background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/photo2.png?raw=true');
                 ">
-            </div>
-            <!-- * 線上諮詢手機版、平板 -->
-            <div class="d-block col-10 d-xl-none  mx-auto" style="width: 80%;">
-              <div class="container bg-white  d-flex flex-column pt-60 pb-24 px-0 py-24 d-block d-lg-none">
-                <h3 class="fs-28 fw-bolder">線上諮詢</h3>
-                <p class=" ">
-                  想快速解決前端學習瓶頸，或需要專業職涯指引？透過線上一對一諮詢，我將協助你更有方向地邁進。
-                </p>
               </div>
             </div>
-          </div>
-          <!-- * 網頁開發 -->
-          <div class="col-10 mx-auto mb-60 d-flex flex-wrap">
-            <div class="col-12 col-lg-6 position-relative" style="
+
+            <!-- * 線上諮詢手機版、平板 -->
+            <div class="col-12 d-lg-none mb-32">
+              <img
+                src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/photo2.png?raw=true"
+                alt="線上諮詢" class="w-100">
+              <div class="d-block col-10 d-lg-none  mx-auto" style="width: 80%;">
+                <div class="container bg-white  d-flex flex-column pt-60 pb-24 px-0 py-24 d-block d-lg-none">
+                  <h3 class="fs-28 fw-bolder">線上諮詢</h3>
+                  <p class="mb-0 ">
+                    想快速解決前端學習瓶頸，或需要專業職涯指引？透過線上一對一諮詢，我將協助你更有方向地邁進。
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- * 網頁開發 lg 版-->
+            <div class="col-10 mx-auto mb-60 d-flex flex-wrap mb-lg-60">
+              <div class="d-none d-lg-block col-lg-6 position-relative" style="
                     height: 320px;
                     background-position: center;
                     background-repeat: no-repeat;
                     background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/photo3.png?raw=true');
                   ">
-              <div class="d-none d-lg-block">
-                <div class="container bg-white d-flex flex-column px-0 py-24 position-relative service-right">
-                  <h3 class="fs-28 fw-bolder">網頁開發</h3>
-                  <p class=" ">
-                    想打造高效能、具美感的網站？我提供從需求訪談到架構實作的一站式服務，讓你的品牌與產品在線上脫穎而出。
-                  </p>
+                <div class="d-none d-lg-block">
+                  <div class="container bg-white d-flex flex-column px-24 py-24 position-relative service-right">
+                    <h3 class="fs-28 fw-bolder">網頁開發</h3>
+                    <p class=" ">
+                      想打造高效能、具美感的網站？我提供從需求訪談到架構實作的一站式服務，讓你的品牌與產品在線上脫穎而出。
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
+
             <!-- * 網頁開發手機版、平板 -->
-            <div class="d-block col-10 d-xl-none  mx-auto">
-              <div class="container bg-white  d-flex flex-column pt-60 pb-24 px-0 py-24 d-block d-lg-none">
+            <div class="d-block col-12 d-lg-none  mx-auto mb-32">
+              <div class="col-12">
+                <img
+                  src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/photo3.png?raw=true"
+                  alt="網頁開發" class="w-100">
+              </div>
+
+              <div class="col-10 bg-white  d-flex flex-column pt-60 pb-24 px-0 py-24 d-block d-lg-none mx-auto">
                 <h3 class="fs-28 fw-bolder">網頁開發</h3>
-                <p class=" ">
+                <p class="mb-0 ">
                   想打造高效能、具美感的網站？我提供從需求訪談到架構實作的一站式服務，讓你的品牌與產品在線上脫穎而出。
                 </p>
               </div>
             </div>
-          </div>
-          <!-- * 企業培訓 -->
-          <div class="col-10 mx-auto mb-60 d-flex flex-wrap">
-            <div class="col-12 col-lg-6 position-relative" style="
-                    background-position: center;
-                    background-repeat: no-repeat;
-                    background-color: white;
-                  ">
-              <div class="d-none d-lg-block">
-                <div class="container bg-white d-flex flex-column px-0 py-24 position-relative service-left">
-                  <h3 class="fs-28 fw-bolder">企業內訓</h3>
-                  <p class=" ">
-                    想讓團隊快速掌握前端最新技術或優化現有專案流程？我可協助打造專業、實用的企業內訓課程，一次解決團隊痛點。
-                  </p>
+
+            <!-- * 企業培訓 lg 版-->
+            <div class="col-10 mx-auto mb-60 d-flex flex-wrap mb-lg-60">
+              <div class="d-none d-lg-block col-lg-6 position-relative">
+                <div class="d-none d-lg-block">
+                  <div class="container bg-white d-flex flex-column px-0 py-24 position-relative service-left">
+                    <h3 class="fs-28 fw-bolder">企業內訓</h3>
+                    <p class=" ">
+                      想讓團隊快速掌握前端最新技術或優化現有專案流程？我可協助打造專業、實用的企業內訓課程，一次解決團隊痛點。
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col-12 col-lg-6" style="
+
+              <div class="d-none d-lg-block col-lg-6" style="
                     height: 320px;
                     background-position: center;
                     background-repeat: no-repeat;
                     background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/photo4.png?raw=true');
                   ">
-            </div>
-            <!-- * 企業培訓開發手機版、平板 -->
-            <div class="d-block col-10 d-xl-none  mx-auto" style="width: 80%;">
-              <div class="container bg-white  d-flex flex-column pt-60 pb-24 px-0 py-24 d-block d-lg-none">
-                <h3 class="fs-28 fw-bolder">企業內訓</h3>
-                <p class=" ">
-                  想讓團隊快速掌握前端最新技術或優化現有專案流程？我可協助打造專業、實用的企業內訓課程，一次解決團隊痛點。
-                </p>
               </div>
             </div>
+
+            <!-- * 企業培訓開發手機版、平板 -->
+            <div class="col-12 d-block d-lg-none mb-32">
+              <img
+                src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/photo4.png?raw=true"
+                alt="企業培訓開發" class="w-100">
+              <div class="d-block col-10 d-xl-none  mx-auto">
+                <div class="container bg-white  d-flex flex-column pt-60 pb-24 px-0 py-24 d-block d-lg-none">
+                  <h3 class="fs-28 fw-bolder">企業內訓</h3>
+                  <p class="mb-0 ">
+                    想讓團隊快速掌握前端最新技術或優化現有專案流程？我可協助打造專業、實用的企業內訓課程，一次解決團隊痛點。
+                  </p>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
     </div>
 
     <!-- * 部落格精選 -->
-    <div class="container-fluid">
+    <div class="container-fluid  border-black border-bottom  border-2 border-top px-0 py-60 py-lg-80">
       <div class="container">
-        <h2 class="fs-64 fw-bolder pt-80 mb-24">部落格精選</h2>
+        <h2 class="fs-64 fw-bolder  mb-24">部落格精選</h2>
       </div>
 
       <!-- * xl carousel -->
-      <div class="container-fluid d-lg-block d-none">
-        <div id="carouselExampleIndicators" class="carousel slide ">
+      <div class="container-fluid d-none d-xl-block ">
+        <!-- * indicator -->
+        <div id="carouselExampleIndicators" class="carousel slide  d-block">
           <i class="carousel-control-prev bi bi-arrow-left-circle-fill text-secondary fs-40 " type="button"
-            style="width: 5%; " data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            style="width: 5%;" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
             <span class="visually-hidden">Previous</span>
           </i>
 
@@ -245,22 +269,23 @@
             <span class="visually-hidden">Next</span>
           </i>
 
-          <div class="container">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="container">
-                  <div class="row" style="min-height: 110vh;">
-                    <div class="col-4  h-100 ">
+          <!-- * carousel 本體 -->
+          <div class="container d-none d-xl-block">
+            <div class="carousel-inner ">
+              <div class="carousel-item active ">
+                <div class="container h-100">
+                  <div class="row h-100">
+                    <div class="col-xl-4  h-100 ">
                       <div class="d-flex flex-column h-100">
                         <img
                           src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/photo5.png?raw=true"
                           alt="自學前端不用怕：從零開始的三大關鍵" class="mb-16 w-100" />
                         <time datetime="2024/10/21">2024/10/21</time>
-                        <div class=" mb-8">
+                        <div class=" mb-8 h-100">
                           <a href="#" class="me-8 text-secondary fs-24">#前端開發</a>
                           <a href="#" class="me-8 text-secondary fs-24">#職涯成長</a>
                           <a href="#"
-                            class="border border-secondary rounded rounded-5 text-white bg-secondary py-8 px-16 ">最新文章
+                            class="border border-secondary rounded rounded-5 text-white bg-secondary py-8 px-16 tag-w30">最新文章
                           </a>
                         </div>
                         <h3>自學前端不用怕：從零開始的三大關鍵</h3>
@@ -274,13 +299,15 @@
                           嗨，我是
                           Alyse，一名前端工程師兼職涯諮詢師。一直以來，我都很喜歡在部落格分享學習與工作心得，也常有讀者問：「我想轉職/自學前端，該從哪裡開始？」其實自學的過程既自由又具挑戰性。我整理了三大關鍵，幫助你在短期內建立紮實基礎，並快速累積實戰經驗。希望能替你的前端之路帶來一些啟發與動力！
                         </p>
-                        <div class="mt-auto">
+                        <div class="h-100 d-flex ">
                           <a href="#"
-                            class="border border-1 border-dark rounded rounded-5 py-8 px-16 text-gray w-25">閱讀內文</a>
+                            class="border border-1 border-dark rounded rounded-5 py-8 px-16 text-gray  h-100 mt-auto ">閱讀內文
+                          </a>
                         </div>
                       </div>
                     </div>
-                    <div class="col-4  h-100">
+
+                    <div class="col-xl-4  h-100">
                       <div class="d-flex flex-column h-100">
                         <img class="w-100 mb-16"
                           src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/photo6.png?raw=true"
@@ -290,7 +317,7 @@
                           <a href="#" class="me-8 text-secondary fs-24">#面試準備</a>
                           <a href="#" class="me-8 text-secondary fs-24">#工程師求職</a>
                           <a href="#"
-                            class="border border-secondary rounded rounded-5 text-white bg-secondary py-8 px-16">人氣文章
+                            class="border border-secondary rounded rounded-5 text-white bg-secondary py-8 px-16 tag-w30">人氣文章
                           </a>
                         </div>
                         <h3>前端面試不再慌：破解常見提問的三大策略</h3>
@@ -303,13 +330,14 @@
                     ">
                           面試前端工程師時，你或許擔心被問到各種刁鑽的技術題目，或是擔憂無法在短時間內展現實力。其實，許多面試官關注的重點並不僅是程式碼本身，更包含問題解決的流程與溝通能力。這篇文章將分享我在面試過程中常見的三大難題，以及如何以更具條理的方式回應，讓你在面試場合中脫穎而出。
                         </p>
-                        <div class="mt-auto">
+                        <div class="d-flex">
                           <a href="#"
-                            class="border border-1 border-dark rounded rounded-5 py-8 px-16 text-gray w-25">閱讀內文</a>
+                            class="border border-1 border-dark rounded rounded-5 py-8 px-16 text-gray mt-auto">閱讀內文</a>
                         </div>
                       </div>
                     </div>
-                    <div class="col-4  h-100">
+
+                    <div class="col-xl-4 h-100">
                       <div class="d-flex flex-column h-100">
                         <img class="w-100 mb-16"
                           src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/photo7.png?raw=true"
@@ -330,18 +358,20 @@
                           在瀏覽器畫面上實現各種精美介面，一直是前端開發充滿成就感的部分。但當面臨複雜的佈局需求或是響應式設計時，往往讓人抓破頭皮。這篇文章想跟大家分享我在實務專案中累積的三大技巧，幫助你更有效率地駕馭
                           CSS，打造兼具美感與功能性的網頁。
                         </p>
-                        <div class="mt-auto">
+                        <div class="d-flex">
                           <a href="#"
-                            class="border border-1 border-dark rounded rounded-5 py-8 px-16 text-gray w-25 ">閱讀內文</a>
+                            class="border border-1 border-dark rounded rounded-5 py-8 px-16 text-gray mt-auto ">閱讀內文</a>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="carousel-item">
+
+              <!-- * 第二行的 carousel -->
+              <div class="carousel-item" data-bs-wrap="false">
                 <div class="container">
-                  <div class="row" style="height: 480px;">
+                  <div class="row">
                     <div class="col-12 col-xl-4 h-100 ">
                       <div class="d-flex flex-column h-100">
                         <img
@@ -362,12 +392,13 @@
                           你是否對 React
                           感到好奇，卻因為複雜的學習曲線而望之卻步？我建議你從最基礎的三個概念開始：元件、狀態與事件處理。這些是打造現代網頁應用的基石，也是每個前端工程師都必須掌握的核心技能。
                         </p>
-                        <div class="mt-auto">
+                        <div class="d-flex">
                           <a href="#"
-                            class="border border-1 border-dark rounded rounded-5 py-8 px-16 text-gray w-25">閱讀內文</a>
+                            class="border border-1 border-dark rounded rounded-5 py-8 px-16 text-gray mt-auto">閱讀內文</a>
                         </div>
                       </div>
                     </div>
+
                     <div class="col-12 col-xl-4 h-100">
                       <div class="d-flex flex-column h-100">
                         <img class="w-100 mb-16"
@@ -388,15 +419,16 @@
                             ">
                           想在求職路上脫穎而出嗎？一個出色的前端作品集是你最有力的武器。不只是展示程式碼，更要說出專案背後的故事、解決的問題，以及你獨特的思考過程。
                         </p>
-                        <div class="mt-auto">
+                        <div class="d-flex">
                           <a href="#"
-                            class="border border-1 border-dark rounded rounded-5 py-8 px-16 text-gray w-25">閱讀內文</a>
+                            class="border border-1 border-dark rounded rounded-5 py-8 px-16 text-gray mt-auto">閱讀內文</a>
                         </div>
                       </div>
                     </div>
+
                     <div class="col-12 col-xl-4 h-100">
                       <div class="d-flex flex-column h-100">
-                        <img class="w-100 mb-16"
+                        <img class="w-100 mb-16 "
                           src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/blog/photo2.png?raw=true"
                           alt="CSS 魔法大揭密：排版與設計的三大關鍵技巧" />
                         <time datetime="2024/09/03">2024/09/03</time>
@@ -414,27 +446,28 @@
                             " class="flex-grow-1 mb-16">
                           在瀏覽器畫面上實現各種精美介面，一直是前端開發充滿成就感的部分。但當面臨複雜的佈局需求或是響應式設計時，往往讓人抓破頭皮。這篇文章想跟大家分享我在實務專案中累積的三大技巧。
                         </p>
-                        <div class="mt-auto">
+                        <div class="d-flex">
                           <a href="#"
-                            class="border border-1 border-dark rounded rounded-5 py-8 px-16 text-gray w-25 ">閱讀內文</a>
+                            class="border border-1 border-dark rounded rounded-5 py-8 px-16 text-gray mt-auto">閱讀內文</a>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
+
             </div>
           </div>
         </div>
       </div>
 
       <!-- * sm - md carousel -->
-      <div class="container-fluid d-block d-lg-none">
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" style="overflow: hidden;">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="container">
-                <div class="row">
+      <div class="container-fluid d-block d-xl-none mb-32 h-100">
+        <div id="carouselExampleControls" class="carousel slide h-100">
+          <div class="carousel-inner h-100">
+            <div class="carousel-item active h-100">
+              <div class="container h-100">
+                <div class="row h-100">
                   <div class="col-12  h-100 ">
                     <div class="d-flex flex-column h-100">
                       <img
@@ -459,9 +492,8 @@
                         嗨，我是
                         Alyse，一名前端工程師兼職涯諮詢師。一直以來，我都很喜歡在部落格分享學習與工作心得，也常有讀者問：「我想轉職/自學前端，該從哪裡開始？」其實自學的過程既自由又具挑戰性。我整理了三大關鍵，幫助你在短期內建立紮實基礎，並快速累積實戰經驗。希望能替你的前端之路帶來一些啟發與動力！
                       </p>
-                      <div class="mt-auto">
-                        <a href="#"
-                          class="border border-1 border-dark rounded rounded-5 py-8 px-16 text-gray w-25">閱讀內文</a>
+                      <div class="d-flex">
+                        <a href="#" class="border border-1 border-dark rounded rounded-5 py-8 px-16 text-gray mt-auto">閱讀內文</a>
                       </div>
                     </div>
                   </div>
@@ -493,9 +525,9 @@
                         在瀏覽器畫面上實現各種精美介面，一直是前端開發充滿成就感的部分。但當面臨複雜的佈局需求或是響應式設計時，往往讓人抓破頭皮。這篇文章想跟大家分享我在實務專案中累積的三大技巧，幫助你更有效率地駕馭
                         CSS，打造兼具美感與功能性的網頁。
                       </p>
-                      <div class="mt-auto">
+                      <div class="d-flex">
                         <a href="#"
-                          class="border border-1 border-dark rounded rounded-5 py-8 px-16 text-gray w-25 ">閱讀內文</a>
+                          class="border border-1 border-dark rounded rounded-5 py-8 px-16 text-gray mt-auto ">閱讀內文</a>
                       </div>
                     </div>
                   </div>
@@ -526,40 +558,44 @@
                                 " class="flex-grow-1 mb-16">
                         在瀏覽器畫面上實現各種精美介面，一直是前端開發充滿成就感的部分。但當面臨複雜的佈局需求或是響應式設計時，往往讓人抓破頭皮。這篇文章想跟大家分享我在實務專案中累積的三大技巧。
                       </p>
-                      <div class="mt-auto">
+                      <div class="d-flex">
                         <a href="#"
-                          class="border border-1 border-dark rounded rounded-5 py-8 px-16 text-gray w-25 ">閱讀內文</a>
+                          class="border border-1 border-dark rounded rounded-5 py-8 px-16 text-gray mt-auto ">閱讀內文</a>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+
+            <!-- * sm - md carousel indicator -->
+            <div class="container d-sm-block d-xl-none">
+              <button class="carousel-control-prev d-flex justify-content-between" type="button"
+                style="left: 70%; bottom: -86%" data-bs-target=" #carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon bi bi-arrow-left-circle-fill text-secondary fs-40 d-block me-28"
+                  aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next d-flex justify-content-end" type="button"
+                style="left: 82%; bottom: -86%" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon bi bi-arrow-right-circle-fill text-secondary fs-40 d-block"
+                  aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
           </div>
         </div>
       </div>
 
-      <div class="container">
-        <button class="carousel-control-prev d-flex justify-content-between" type="button" style="left: 2%;"
-          data-bs-target=" #carouselExampleControls" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon bi bi-arrow-left-circle-fill text-secondary fs-40 d-block"
-            aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next d-flex justify-content-end" type="button" style="left: 82%;"
-          data-bs-target="#carouselExampleControls" data-bs-slide="next">
-          <span class="carousel-control-next-icon bi bi-arrow-right-circle-fill text-secondary fs-40 d-block"
-            aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
     </div>
 
     <!-- * 職涯諮詢成功案例 -->
     <div class="container-fluid pt-80 mb-40">
       <div class="container">
-        <h2 class="fs-lg-64 fw-bolder mb-24">職涯諮詢成功案例</h2>
-        <div class="row">
+        <h2 class="d-none d-lg-block fs-lg-64 fw-bolder mb-24">職涯諮詢成功案例</h2>
+        <h2 class="fs-48 d-block d-lg-none">職涯諮詢</h2>
+        <h3 class="fs-48 d-block d-lg-none mb-24">成功案例</h3>
+        <div class="row d-none d-lg-block">
           <div class="col-7 p-24" style="background-color: #EDEDED;">
             <div style="background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/photo8.png?raw=true');
           background-position: center;
@@ -785,7 +821,7 @@
   margin-top: -400px;
   position: absolute;
   left: 40%;
-  width: 55vw;
+  width: 55%;
 }
 
 .service-right {
@@ -806,6 +842,8 @@
 .service-pic {
   min-height: 176px;
 }
+
+.tag-w25 {}
 
 @media (min-width: 375px) and (max-width:768px) {
   .hero-section {
@@ -833,7 +871,7 @@
 
 @media (min-width: 992px) {
   .service-right {
-    transform: translateY(50%) translateX(100%);
+    transform: translateY(35%) translateX(100%);
     width: 80%;
   }
 
@@ -846,6 +884,12 @@
   .service-pic {
     height: 320px !important;
   }
+
+  .tag-w30 {
+    display: block;
+    width: 30%;
+  }
+
 }
 
 @media (min-width: 1296px) {
@@ -857,6 +901,19 @@
   .service-left {
     margin-right: -480px;
     width: 100%;
+  }
+
+  .tag-w30 {
+    display: inline-block;
+    width: 30%;
+  }
+
+}
+
+@media (min-width: 1400px) {
+  .tag-w30 {
+    display: inline-block;
+    width: 25%;
   }
 }
 </style>
