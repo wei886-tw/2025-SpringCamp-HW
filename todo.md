@@ -12,7 +12,7 @@
 ## Tier 2
 [ ] 專業服務與方案的白色區域應該要滿版
 
-[x] carousel 不等高、 button 沒有下面
+[] carousel 不等高
 
 [x] carousel indicator 在按鈕下面
 

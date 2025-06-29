@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid  position-relative">
+  <div class="container-fluid  position-relative bg-main-bg">
     <!-- * Hero Section -->
     <div class="container-fluid  d-none d-lg-flex pb-lg-200">
       <div class="container-fluid " style="
@@ -28,14 +28,15 @@
     <div class="container-fluid d-block d-lg-none">
       <div class="container-fluid " style="
           background-position: center;
-          height: 376px;
+          height: 440px;
           background-repeat: no-repeat;
           background-image: url('./Alyse-Wang.jpg');
           background-size: cover;
-        "></div>
+        ">
+      </div>
 
-      <div class="py-24  d-flex flex-column flex-nowrap d-block  hero-section" style="
-            height: 356px;
+      <div class="pt-24  d-flex flex-column flex-nowrap d-block  hero-section" style="
+            height: 582px;
             background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/Hero%20Section2.png?raw=true');
             background-position: center;
             background-repeat: no-repeat;
@@ -46,7 +47,7 @@
           <p class="noto-sans-tc fw-bolder text-secondary fs-48 fs-xxl-120 mb-0 flex-nowrap">
             Alyse Wang
           </p>
-          <p class="noto-sans-tc fw-bold text-secondary fs-28 ">前端工程師 & 職涯諮詢師</p>
+          <p class="noto-sans-tc fw-bold text-secondary fs-28  ">前端工程師 & 職涯諮詢師</p>
         </div>
 
         <div class="container-fluid">
@@ -82,15 +83,14 @@
         擅長 React、Vue
         等框架，同時熱愛為轉職與新手工程師提供職涯指導。邀請你與我一起，開啟更具潛能的程式與職涯之旅！
       </p>
-      <p class="mb-16"></p>
     </div>
 
     <!-- * 服務區塊 -->
-    <div class="container-fluid bg-white">
+    <div class="container-fluid bg-main-bg">
       <div class="container">
         <div class="row mx-auto">
           <div class="col-12 ">
-            <h2 class="fs-64 noto-sans-tc pt-80 mb-32 fw-bold ">專業服務與方案</h2>
+            <h2 class="fs-48 fs-lg-64 noto-sans-tc pt-80 mb-32 fw-bold ">專業服務與方案</h2>
 
             <!-- * 履歷健檢 lg 版 -->
             <div class="d-none d-lg-block col-10 mx-auto mb-lg-60 d-flex flex-wrap">
@@ -102,8 +102,8 @@
                 ">
                 <div
                   class="container bg-white d-flex flex-column px-24 py-24 position-relative service-right border-white border-1">
-                  <h3 class="fs-28 fw-bolder">履歷健檢</h3>
-                  <p class=" ">
+                  <h3 class="fs-28 fw-bolder ">履歷健檢</h3>
+                  <p class="text-gray">
                     履歷是打開機會之門的第一步。讓我協助你突顯專業技術與核心能力，並透過簡短模擬面試為你加分，讓面試官第一眼就被你吸引。
                   </p>
                 </div>
@@ -118,7 +118,7 @@
               <div class="d-block col-10 d-xl-none mx-auto ">
                 <div class="container bg-white d-flex flex-column pt-60 pb-24 px-24 d-block d-lg-none">
                   <h3 class="fs-28 fw-bolder">履歷健檢</h3>
-                  <p class="mb-0">
+                  <p class="mb-0 text-gray">
                     履歷是打開機會之門的第一步。讓我協助你突顯專業技術與核心能力，並透過簡短模擬面試為你加分，讓面試官第一眼就被你吸引。
                   </p>
                 </div>
@@ -131,7 +131,7 @@
                 <div class="d-none d-lg-block">
                   <div class="container bg-white d-flex flex-column px-24 py-24 position-relative service-left">
                     <h3 class="fs-28 fw-bolder">線上諮詢</h3>
-                    <p class=" ">
+                    <p class=" text-gray">
                       想快速解決前端學習瓶頸，或需要專業職涯指引？透過線上一對一諮詢，我將協助你更有方向地邁進。
                     </p>
                   </div>
@@ -155,7 +155,7 @@
               <div class="d-block col-10 d-lg-none  mx-auto" style="width: 80%;">
                 <div class="container bg-white  d-flex flex-column pt-60 pb-24 px-0 py-24 d-block d-lg-none">
                   <h3 class="fs-28 fw-bolder">線上諮詢</h3>
-                  <p class="mb-0 ">
+                  <p class="mb-0 text-gray">
                     想快速解決前端學習瓶頸，或需要專業職涯指引？透過線上一對一諮詢，我將協助你更有方向地邁進。
                   </p>
                 </div>
@@ -173,7 +173,7 @@
                 <div class="d-none d-lg-block">
                   <div class="container bg-white d-flex flex-column px-24 py-24 position-relative service-right">
                     <h3 class="fs-28 fw-bolder">網頁開發</h3>
-                    <p class=" ">
+                    <p class="text-gray ">
                       想打造高效能、具美感的網站？我提供從需求訪談到架構實作的一站式服務，讓你的品牌與產品在線上脫穎而出。
                     </p>
                   </div>
@@ -191,7 +191,7 @@
 
               <div class="col-10 bg-white  d-flex flex-column pt-60 pb-24 px-0 py-24 d-block d-lg-none mx-auto">
                 <h3 class="fs-28 fw-bolder">網頁開發</h3>
-                <p class="mb-0 ">
+                <p class="mb-0 text-gray">
                   想打造高效能、具美感的網站？我提供從需求訪談到架構實作的一站式服務，讓你的品牌與產品在線上脫穎而出。
                 </p>
               </div>
@@ -201,9 +201,9 @@
             <div class="col-10 mx-auto mb-60 d-flex flex-wrap mb-lg-60">
               <div class="d-none d-lg-block col-lg-6 position-relative">
                 <div class="d-none d-lg-block">
-                  <div class="container bg-white d-flex flex-column px-0 py-24 position-relative service-left">
+                  <div class="container bg-white d-flex flex-column px-24 py-24 position-relative service-left">
                     <h3 class="fs-28 fw-bolder">企業內訓</h3>
-                    <p class=" ">
+                    <p class=" text-gray">
                       想讓團隊快速掌握前端最新技術或優化現有專案流程？我可協助打造專業、實用的企業內訓課程，一次解決團隊痛點。
                     </p>
                   </div>
@@ -227,7 +227,7 @@
               <div class="d-block col-10 d-xl-none  mx-auto">
                 <div class="container bg-white  d-flex flex-column pt-60 pb-24 px-0 py-24 d-block d-lg-none">
                   <h3 class="fs-28 fw-bolder">企業內訓</h3>
-                  <p class="mb-0 ">
+                  <p class="mb-0 text-gray">
                     想讓團隊快速掌握前端最新技術或優化現有專案流程？我可協助打造專業、實用的企業內訓課程，一次解決團隊痛點。
                   </p>
                 </div>
@@ -238,6 +238,119 @@
         </div>
       </div>
     </div>
+
+    <!-- * Blog Swiper -->
+    <!-- <div class="container-fluid">
+      <swiper :modules="modules" :slides-per-view="3" :space-between="50" pagination="{ clickable: true }"
+        :scrollbar="{ draggable: true }" @swiper="onSwiper" @slideChange="onSlideChange"
+        :navigation="{ clickable: true }">
+        <swiper-slide>
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-lg-4">
+                <div class="d-flex flex-column h-100">
+                  <img
+                    src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/photo5.png?raw=true"
+                    alt="自學前端不用怕：從零開始的三大關鍵" class="mb-16 w-100" />
+                  <time datetime="2024/10/21">2024/10/21</time>
+                  <div class=" mb-8 h-100">
+                    <a href="#" class="me-8 text-secondary fs-24">#前端開發</a>
+                    <a href="#" class="me-8 text-secondary fs-24">#職涯成長</a>
+                    <a href="#"
+                      class="border border-secondary rounded rounded-5 text-white bg-secondary py-8 px-16 tag-w30">最新文章
+                    </a>
+                  </div>
+                  <h3>自學前端不用怕：從零開始的三大關鍵</h3>
+                  <p class="flex-grow-1" style="
+                            text-overflow: ellipsis;
+                            display: -webkit-box;
+                            overflow: hidden;
+                            -webkit-box-orient: vertical;
+                            -webkit-line-clamp: 2;
+                          ">
+                    嗨，我是
+                    Alyse，一名前端工程師兼職涯諮詢師。一直以來，我都很喜歡在部落格分享學習與工作心得，也常有讀者問：「我想轉職/自學前端，該從哪裡開始？」其實自學的過程既自由又具挑戰性。我整理了三大關鍵，幫助你在短期內建立紮實基礎，並快速累積實戰經驗。希望能替你的前端之路帶來一些啟發與動力！
+                  </p>
+                  <div class="h-100 d-flex ">
+                    <a href="#"
+                      class="border border-1 border-dark rounded rounded-5 py-8 px-16 text-gray  h-100 mt-auto ">閱讀內文
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-lg-4">
+                <div class="d-flex flex-column h-100">
+                  <img
+                    src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/photo5.png?raw=true"
+                    alt="自學前端不用怕：從零開始的三大關鍵" class="mb-16 w-100" />
+                  <time datetime="2024/10/21">2024/10/21</time>
+                  <div class=" mb-8 h-100">
+                    <a href="#" class="me-8 text-secondary fs-24">#前端開發</a>
+                    <a href="#" class="me-8 text-secondary fs-24">#職涯成長</a>
+                    <a href="#"
+                      class="border border-secondary rounded rounded-5 text-white bg-secondary py-8 px-16 tag-w30">最新文章
+                    </a>
+                  </div>
+                  <h3>自學前端不用怕：從零開始的三大關鍵</h3>
+                  <p class="flex-grow-1" style="
+                            text-overflow: ellipsis;
+                            display: -webkit-box;
+                            overflow: hidden;
+                            -webkit-box-orient: vertical;
+                            -webkit-line-clamp: 2;
+                          ">
+                    嗨，我是
+                    Alyse，一名前端工程師兼職涯諮詢師。一直以來，我都很喜歡在部落格分享學習與工作心得，也常有讀者問：「我想轉職/自學前端，該從哪裡開始？」其實自學的過程既自由又具挑戰性。我整理了三大關鍵，幫助你在短期內建立紮實基礎，並快速累積實戰經驗。希望能替你的前端之路帶來一些啟發與動力！
+                  </p>
+                  <div class="h-100 d-flex ">
+                    <a href="#"
+                      class="border border-1 border-dark rounded rounded-5 py-8 px-16 text-gray  h-100 mt-auto ">閱讀內文
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-lg-4">
+                <div class="d-flex flex-column h-100">
+                  <img
+                    src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/photo5.png?raw=true"
+                    alt="自學前端不用怕：從零開始的三大關鍵" class="mb-16 w-100" />
+                  <time datetime="2024/10/21">2024/10/21</time>
+                  <div class=" mb-8 h-100">
+                    <a href="#" class="me-8 text-secondary fs-24">#前端開發</a>
+                    <a href="#" class="me-8 text-secondary fs-24">#職涯成長</a>
+                    <a href="#"
+                      class="border border-secondary rounded rounded-5 text-white bg-secondary py-8 px-16 tag-w30">最新文章
+                    </a>
+                  </div>
+                  <h3>自學前端不用怕：從零開始的三大關鍵</h3>
+                  <p class="flex-grow-1" style="
+                            text-overflow: ellipsis;
+                            display: -webkit-box;
+                            overflow: hidden;
+                            -webkit-box-orient: vertical;
+                            -webkit-line-clamp: 2;
+                          ">
+                    嗨，我是
+                    Alyse，一名前端工程師兼職涯諮詢師。一直以來，我都很喜歡在部落格分享學習與工作心得，也常有讀者問：「我想轉職/自學前端，該從哪裡開始？」其實自學的過程既自由又具挑戰性。我整理了三大關鍵，幫助你在短期內建立紮實基礎，並快速累積實戰經驗。希望能替你的前端之路帶來一些啟發與動力！
+                  </p>
+                  <div class="h-100 d-flex ">
+                    <a href="#"
+                      class="border border-1 border-dark rounded rounded-5 py-8 px-16 text-gray  h-100 mt-auto ">閱讀內文
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </swiper-slide>
+
+        <swiper-slide>Slide 2</swiper-slide>
+        <swiper-slide>Slide 3</swiper-slide>
+        ...
+      </swiper>
+    </div> -->
 
     <!-- * 部落格精選 -->
     <div class="container-fluid  border-black border-bottom  border-2 border-top px-0 py-60 py-lg-80">
@@ -330,9 +443,9 @@
                     ">
                           面試前端工程師時，你或許擔心被問到各種刁鑽的技術題目，或是擔憂無法在短時間內展現實力。其實，許多面試官關注的重點並不僅是程式碼本身，更包含問題解決的流程與溝通能力。這篇文章將分享我在面試過程中常見的三大難題，以及如何以更具條理的方式回應，讓你在面試場合中脫穎而出。
                         </p>
-                        <div class="d-flex">
+                        <div class="d-flex mt-auto">
                           <a href="#"
-                            class="border border-1 border-dark rounded rounded-5 py-8 px-16 text-gray mt-auto">閱讀內文</a>
+                            class="border border-1 border-dark rounded rounded-5 py-8 px-16 text-gray ">閱讀內文</a>
                         </div>
                       </div>
                     </div>
@@ -343,7 +456,7 @@
                           src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/photo7.png?raw=true"
                           alt="CSS 魔法大揭密：排版與設計的三大關鍵技巧" />
                         <time datetime="2024/09/03">2024/09/03</time>
-                        <div class="mb-8">
+                        <div class="mb-8 h-100">
                           <a href="#" class="me-8 fs-24 text-secondary">#CSS 設計</a>
                           <a href="#" class="fs-24 text-secondary">#視覺體驗</a>
                         </div>
@@ -358,7 +471,7 @@
                           在瀏覽器畫面上實現各種精美介面，一直是前端開發充滿成就感的部分。但當面臨複雜的佈局需求或是響應式設計時，往往讓人抓破頭皮。這篇文章想跟大家分享我在實務專案中累積的三大技巧，幫助你更有效率地駕馭
                           CSS，打造兼具美感與功能性的網頁。
                         </p>
-                        <div class="d-flex">
+                        <div class="d-flex mt-auto">
                           <a href="#"
                             class="border border-1 border-dark rounded rounded-5 py-8 px-16 text-gray mt-auto ">閱讀內文</a>
                         </div>
@@ -392,9 +505,9 @@
                           你是否對 React
                           感到好奇，卻因為複雜的學習曲線而望之卻步？我建議你從最基礎的三個概念開始：元件、狀態與事件處理。這些是打造現代網頁應用的基石，也是每個前端工程師都必須掌握的核心技能。
                         </p>
-                        <div class="d-flex">
+                        <div class="d-flex mt-auto">
                           <a href="#"
-                            class="border border-1 border-dark rounded rounded-5 py-8 px-16 text-gray mt-auto">閱讀內文</a>
+                            class="border border-1 border-dark rounded rounded-5 py-8 px-16 text-gray ">閱讀內文</a>
                         </div>
                       </div>
                     </div>
@@ -493,7 +606,8 @@
                         Alyse，一名前端工程師兼職涯諮詢師。一直以來，我都很喜歡在部落格分享學習與工作心得，也常有讀者問：「我想轉職/自學前端，該從哪裡開始？」其實自學的過程既自由又具挑戰性。我整理了三大關鍵，幫助你在短期內建立紮實基礎，並快速累積實戰經驗。希望能替你的前端之路帶來一些啟發與動力！
                       </p>
                       <div class="d-flex">
-                        <a href="#" class="border border-1 border-dark rounded rounded-5 py-8 px-16 text-gray mt-auto">閱讀內文</a>
+                        <a href="#"
+                          class="border border-1 border-dark rounded rounded-5 py-8 px-16 text-gray mt-auto">閱讀內文</a>
                       </div>
                     </div>
                   </div>
@@ -595,22 +709,26 @@
         <h2 class="d-none d-lg-block fs-lg-64 fw-bolder mb-24">職涯諮詢成功案例</h2>
         <h2 class="fs-48 d-block d-lg-none">職涯諮詢</h2>
         <h3 class="fs-48 d-block d-lg-none mb-24">成功案例</h3>
-        <div class="row d-none d-lg-block">
-          <div class="col-7 p-24" style="background-color: #EDEDED;">
+        <div class="row ">
+          <div class="col-12 col-lg-7 p-24" style="background-color: #EDEDED;">
             <div style="background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/photo8.png?raw=true');
           background-position: center;
           background-repeat: no-repeat;
-          height: 578px;"></div>
-          </div>
-          <div class="col-5 d-flex flex-column">
-            <p class="px-40 py-80 fw-bold bg-white left-shift-220 mb-0">
-              在職涯發展的關鍵轉折點上，適時的協助與正確的方向至關重要。藉由職涯諮詢，我可以幫助你加速釐清目標、建立更全面的技術與軟實力，並有效突破原有的舒適圈。
-            </p>
-            <div class="ms-24 mb-24 py-140 px-40" style="background-color: #F5F5F5; transform: translateY(-40px);">
-              <p class="fw-bold mb-24">期待在下一個新機會中，我能與你一起攜手邁向更高峰！</p>
-              <a href="#" class="text-secondary border border-1 rounded rounded-5 py-8 px-16 fw-bold">立即預約諮詢</a>
+          height: 578px;">
             </div>
           </div>
+
+          <div class="col-12 col-lg-5 d-flex flex-column px-0">
+            <p class="px-40 py-80 fw-bold bg-white mb-0 shift-lg">
+              在職涯發展的關鍵轉折點上，適時的協助與正確的方向至關重要。藉由職涯諮詢，我可以幫助你加速釐清目標、建立更全面的技術與軟實力，並有效突破原有的舒適圈。
+            </p>
+            <div class="ms-lg-24 mb-24 py-140 px-40" style="background-color: #F5F5F5; ">
+              <p class="fw-bold mb-24">期待在下一個新機會中，我能與你一起攜手邁向更高峰！</p>
+              <a href="#"
+                class="text-secondary border border-secondary border-1 rounded rounded-5 py-8 px-16 fw-bold">立即預約諮詢</a>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
@@ -631,10 +749,10 @@
 
             <div class="d-flex ">
               <i class="bi bi-check-square-fill me-8 text-secondary"></i>
-              <p class="text-gray pb-16 ">深度強化面試表現</p>
+              <p class="text-gray  ">深度強化面試表現</p>
             </div>
-            <p></p>
-            <a href="#" class="border border-dark rounded rounded-5 py-8 px-16 text-gray">前往聆聽 podcast</a>
+            <hr class="">
+            <a href="#" class="border border-dark rounded rounded-5  py-8 px-16 text-gray">前往聆聽 podcast</a>
           </div>
 
           <div class="col-12 col-lg-3 p-24">
@@ -649,9 +767,9 @@
 
             <div class="d-flex ">
               <i class="bi bi-check-square-fill me-8 text-secondary"></i>
-              <p class="text-gray pb-16 ">鼓勵參與前端社群或活動</p>
+              <p class="text-gray  ">鼓勵參與前端社群或活動</p>
             </div>
-            <p></p>
+            <hr>
             <a href="#" class="border border-dark rounded rounded-5 py-8 px-16 text-gray">前往聆聽 podcast</a>
           </div>
 
@@ -667,9 +785,9 @@
 
             <div class="d-flex ">
               <i class="bi bi-check-square-fill me-8 text-secondary"></i>
-              <p class="text-gray pb-16 ">討論遇到不熟悉議題時的回應方式</p>
+              <p class="text-gray ">討論遇到不熟悉議題時的回應方式</p>
             </div>
-            <p></p>
+            <hr>
             <a href="#" class="border border-dark rounded rounded-5 py-8 px-16 text-gray">前往聆聽 podcast</a>
           </div>
 
@@ -685,9 +803,9 @@
 
             <div class="d-flex ">
               <i class="bi bi-check-square-fill me-8 text-secondary"></i>
-              <p class="text-gray pb-16 ">培養跨團隊溝通與簡報能力</p>
+              <p class="text-gray ">培養跨團隊溝通與簡報能力</p>
             </div>
-            <p></p>
+            <hr>
             <a href="#" class="border border-dark rounded rounded-5 py-8 px-16 text-gray">前往聆聽 podcast</a>
           </div>
 
@@ -705,7 +823,7 @@
           background-size: cover;">
       </div>
 
-      <div class="d-none d-lg-block w-50 d-lg-flex align-items-center" style="
+      <div class="d-none d-lg-block w-50 d-lg-flex align-items-center newsletter-bg" style="
           height: 834px;
           background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/Hero%20Section2.png?raw=true');
           background-position: center;
@@ -715,11 +833,17 @@
         <div class="container bg-white my-auto mx-auto w-75 p-80 my-auto">
           <p class="fs-64 fw-bold mb-16">訂閱電子報</p>
           <p class="mb-24">立即訂閱，搶先掌握前端 x 職涯的獨家資訊！</p>
-          <input type="text" class="form-control w-100 mb-8" placeholder="請輸入您的大名" aria-label="請輸入您的大名"
-            aria-describedby="basic-addon1" style="background-color: #F1F1F1;">
-          <input type="text" class="form-control  w-100 mb-24" placeholder="請輸入您的電子信箱" aria-label="請輸入您的電子信箱"
-            aria-describedby="basic-addon1" style="background-color: #F1F1F1;">
-          <a href="#" class="fw-bold text-secondary py-8 px-16 border border-secondary rounded rounded-5">啟動訂閱</a>
+          <form>
+            <input type="text" class="form-control w-100 mb-8" placeholder="請輸入您的大名" aria-label="請輸入您的大名"
+              aria-describedby="basic-addon1" style="background-color: #F1F1F1;" v-model="userInfo.name"
+              @blur="validateName()">
+            <span class="text-danger mb-8 fw-bold d-block" v-if="this.errors.name">{{ this.errors.name }}</span>
+            <input type="text" class="form-control  w-100  mb-8" placeholder="請輸入您的電子信箱" aria-label="請輸入您的電子信箱"
+              aria-describedby="basic-addon1" style="background-color: #F1F1F1;" v-model="userInfo.email" @blur="validateEmail()">
+            <span class="text-danger mb-8 fw-bold d-block" v-if="this.errors.email">{{ this.errors.email }}</span>
+            <button class="fw-bold text-secondary py-8 px-16 border border-secondary rounded rounded-5">啟動訂閱</button>
+            
+          </form>
         </div>
       </div>
     </div>
@@ -728,20 +852,20 @@
     <div class="container-fluid ">
       <div class="d-block d-lg-none w-100" style="
           background-position: center;
-          height: 376px;
+          height: 440px;
           background-repeat: no-repeat;
           background-image: url('./Alyse-Wang.jpg');
           background-size: cover;">
       </div>
 
-      <div class="d-block d-lg-none w-100  px-12 pt-12 pb-40" style="
-          height:376px;
+      <div class="d-flex d-lg-none  align-items-center justify-content-center" style="
+          height:440px;
           background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/Hero%20Section2.png?raw=true');
           background-position: center;
           background-repeat: no-repeat;
           background-size: cover;
         ">
-        <div class="container bg-white my-auto mx-auto w-100 p-80 ">
+        <div class="bg-white my-auto mx-auto w-75  py-40 px-24">
           <p class="fs-32 fs-md-48 fw-bold mb-16">訂閱電子報</p>
           <p class="mb-24 fs-20">立即訂閱，搶先掌握前端 x 職涯的獨家資訊！</p>
           <input type="text" class="form-control w-100 mb-8" placeholder="請輸入您的大名" aria-label="請輸入您的大名"
@@ -755,7 +879,7 @@
     </div>
 
     <!-- * 與我聯繫 -->
-    <div class="container-fluid">
+    <div class="container-fluid ">
       <div class="container py-60 py-lg-80  px-12">
         <h3 class="fw-bold fs-48 fs-lg-64 mb-24">與我聯繫</h3>
         <div class="d-flex justify-content-between border-dark border-bottom mb-16 pb-8">
@@ -816,6 +940,62 @@
   </div>
 </template>
 
+<script>
+// Import Swiper and modules
+import Swiper from 'swiper';
+import { Navigation, Pagination, Scrollbar } from 'swiper/modules';
+
+export default {
+  data() {
+    return {
+      userInfo: {
+        email: null,
+        name: null,
+      },
+      errors: {
+        name: null,
+        email: null
+      },  // 新增錯誤狀態
+    };
+  },
+  methods: {
+    validateName() {
+      if (this.userInfo.name === '' || this.userInfo.name === null) {
+        this.errors.name = '姓名不得為空白';
+      } else {
+        this.errors.name = null;
+      }
+    },
+
+    validateEmail() {
+      if (this.userInfo.email === '' || this.userInfo.email === null) {
+        this.errors.email = 'Email 不得為空白';
+      } else {
+        this.errors.email = null;
+      }
+    },
+
+    clickSubscription() {
+
+    }
+    
+  },
+  mounted() {
+    // swiper
+    const swiper = new Swiper('.swiper', {
+      // Install modules
+      modules: [ Navigation, Pagination, Scrollbar ],
+      speed: 500,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  }
+};
+</script>
+
+
 <style>
 .contact-link {
   margin-top: -400px;
@@ -843,12 +1023,26 @@
   min-height: 176px;
 }
 
-.tag-w25 {}
+
+.shift-lg {
+  transform: translateX(0px);
+}
+
+.newsletter-bg {
+  height: 400px;
+}
+
+
+
 
 @media (min-width: 375px) and (max-width:768px) {
   .hero-section {
     width: 100% !important;
     aspect-ratio: 1;
+  }
+
+  .newsletter-bg {
+    height: 400px;
   }
 }
 
@@ -867,18 +1061,20 @@
   .service-pic {
     height: 176px !important;
   }
+
+
 }
 
 @media (min-width: 992px) {
   .service-right {
-    transform: translateY(35%) translateX(100%);
-    width: 80%;
+    transform: translateY(35%) translateX(80%);
+    width: 113%;
   }
 
   .service-left {
-    margin-left: 20px;
+    margin-left: 5px;
     transform: translateY(50%);
-    width: 100%;
+    width: 110%;
   }
 
   .service-pic {
@@ -890,22 +1086,30 @@
     width: 30%;
   }
 
+  .shift-lg {
+    transform: translate(-180px, 30px)
+  }
+
 }
 
 @media (min-width: 1296px) {
   .service-right {
     transform: translateX(90%) translateY(50%);
-    width: 100%;
+    width: 105%;
   }
 
   .service-left {
-    margin-right: -480px;
-    width: 100%;
+    margin-left: 0px;
+    width: 105%;
   }
 
   .tag-w30 {
     display: inline-block;
     width: 30%;
+  }
+
+  .shift-lg {
+    transform: translate(-220px, 30px)
   }
 
 }
