@@ -4,9 +4,9 @@
 
 [ ] 串金流
 
-[ ] RWD
+[v] RWD
 
-[ ] 改文字字體
+[v] 改文字字體
 
 
 ## Tier 2
@@ -14,6 +14,6 @@
 
 [] carousel 不等高
 
-[x] carousel indicator 在按鈕下面
+[v] carousel indicator 在按鈕下面
 
 

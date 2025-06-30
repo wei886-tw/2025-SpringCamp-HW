@@ -239,7 +239,7 @@
       </div>
     </div>
 
-    <!-- * Blog Swiper -->
+    <!-- * Blog Swiper 停用 -->
     <!-- <div class="container-fluid">
       <swiper :modules="modules" :slides-per-view="3" :space-between="50" pagination="{ clickable: true }"
         :scrollbar="{ draggable: true }" @swiper="onSwiper" @slideChange="onSlideChange"
@@ -386,95 +386,96 @@
           <div class="container d-none d-xl-block">
             <div class="carousel-inner ">
               <div class="carousel-item active ">
-                <div class="container h-100">
-                  <div class="row h-100">
-                    <div class="col-xl-4  h-100 ">
+                <div class="container ">
+                  <div class="row ">
+                    <div class="col-12 col-xl-4  ">
                       <div class="d-flex flex-column h-100">
-                        <img
-                          src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/photo5.png?raw=true"
-                          alt="自學前端不用怕：從零開始的三大關鍵" class="mb-16 w-100" />
-                        <time datetime="2024/10/21">2024/10/21</time>
-                        <div class=" mb-8 h-100">
-                          <a href="#" class="me-8 text-secondary fs-24">#前端開發</a>
-                          <a href="#" class="me-8 text-secondary fs-24">#職涯成長</a>
-                          <a href="#"
-                            class="border border-secondary rounded rounded-5 text-white bg-secondary py-8 px-16 tag-w30">最新文章
-                          </a>
-                        </div>
-                        <h3>自學前端不用怕：從零開始的三大關鍵</h3>
-                        <p class="flex-grow-1" style="
-                      text-overflow: ellipsis;
-                      display: -webkit-box;
-                      overflow: hidden;
-                      -webkit-box-orient: vertical;
-                      -webkit-line-clamp: 2;
-                    ">
-                          嗨，我是
-                          Alyse，一名前端工程師兼職涯諮詢師。一直以來，我都很喜歡在部落格分享學習與工作心得，也常有讀者問：「我想轉職/自學前端，該從哪裡開始？」其實自學的過程既自由又具挑戰性。我整理了三大關鍵，幫助你在短期內建立紮實基礎，並快速累積實戰經驗。希望能替你的前端之路帶來一些啟發與動力！
-                        </p>
-                        <div class="h-100 d-flex ">
-                          <a href="#"
-                            class="border border-1 border-dark rounded rounded-5 py-8 px-16 text-gray  h-100 mt-auto ">閱讀內文
-                          </a>
-                        </div>
+                      <img
+                        src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/photo5.png?raw=true"
+                        alt="自學前端不用怕：從零開始的三大關鍵" class="mb-16 w-100" />
+                      <time datetime="2024/10/21">2024/10/21</time>
+                      <div class=" mb-8 tag-height-80"  >
+                        <a href="#" class="me-8 text-secondary fs-24">#前端開發</a>
+                        <a href="#" class="me-8 text-secondary fs-24">#職涯成長</a>
+                        <a href="#"
+                        class="border border-secondary rounded rounded-5 text-white bg-secondary py-8 px-16 tag-w30">最新文章
+                        </a>
+                      </div>
+                      <h3>自學前端不用怕：從零開始的三大關鍵</h3>
+                      <p class="flex-grow-1" style="
+                          text-overflow: ellipsis;
+                          display: -webkit-box;
+                          overflow: hidden;
+                          -webkit-box-orient: vertical;
+                          -webkit-line-clamp: 2;
+                          line-clamp: 2;
+                        ">
+                        嗨，我是
+                        Alyse，一名前端工程師兼職涯諮詢師。一直以來，我都很喜歡在部落格分享學習與工作心得，也常有讀者問：「我想轉職/自學前端，該從哪裡開始？」其實自學的過程既自由又具挑戰性。我整理了三大關鍵，幫助你在短期內建立紮實基礎，並快速累積實戰經驗。希望能替你的前端之路帶來一些啟發與動力！
+                      </p>
+                      <div class="d-flex mt-auto">
+                        <a href="#"
+                        class="border border-1 border-dark rounded rounded-5 py-8 px-16 text-gray ">閱讀內文</a>
+                      </div>
                       </div>
                     </div>
 
-                    <div class="col-xl-4  h-100">
+                    <div class="col-12 col-xl-4 ">
                       <div class="d-flex flex-column h-100">
-                        <img class="w-100 mb-16"
-                          src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/photo6.png?raw=true"
-                          alt="自學前端不用怕：從零開始的三大關鍵" />
-                        <time datetime="2024/07/08">2024/07/08</time>
-                        <div class=" mb-8">
-                          <a href="#" class="me-8 text-secondary fs-24">#面試準備</a>
-                          <a href="#" class="me-8 text-secondary fs-24">#工程師求職</a>
-                          <a href="#"
-                            class="border border-secondary rounded rounded-5 text-white bg-secondary py-8 px-16 tag-w30">人氣文章
-                          </a>
-                        </div>
-                        <h3>前端面試不再慌：破解常見提問的三大策略</h3>
-                        <p class="flex-grow-1" style="
-                      text-overflow: ellipsis;
-                      display: -webkit-box;
-                      overflow: hidden;
-                      -webkit-box-orient: vertical;
-                      -webkit-line-clamp: 2;
-                    ">
-                          面試前端工程師時，你或許擔心被問到各種刁鑽的技術題目，或是擔憂無法在短時間內展現實力。其實，許多面試官關注的重點並不僅是程式碼本身，更包含問題解決的流程與溝通能力。這篇文章將分享我在面試過程中常見的三大難題，以及如何以更具條理的方式回應，讓你在面試場合中脫穎而出。
-                        </p>
-                        <div class="d-flex mt-auto">
-                          <a href="#"
-                            class="border border-1 border-dark rounded rounded-5 py-8 px-16 text-gray ">閱讀內文</a>
-                        </div>
+                      <img class="w-100 mb-16"
+                        src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/photo6.png?raw=true"
+                        alt="前端面試不再慌：破解常見提問的三大策略" />
+                      <time datetime="2024/07/08">2024/07/08</time>
+                      <div class=" mb-8 tag-height-80" >
+                        <a href="#" class="me-8 text-secondary fs-24">#面試準備</a>
+                        <a href="#" class="me-8 text-secondary fs-24">#工程師求職</a>
+                        <a href="#"
+                        class="border border-secondary rounded rounded-5 text-white bg-secondary py-8 px-16 tag-w30">人氣文章
+                        </a>
+                      </div>
+                      <h3>前端面試不再慌：破解常見提問的三大策略</h3>
+                      <p class="flex-grow-1" style="
+                          text-overflow: ellipsis;
+                          display: -webkit-box;
+                          overflow: hidden;
+                          -webkit-box-orient: vertical;
+                          -webkit-line-clamp: 2;
+                          line-clamp: 2;
+                        ">
+                        面試前端工程師時，你或許擔心被問到各種刁鑽的技術題目，或是擔憂無法在短時間內展現實力。其實，許多面試官關注的重點並不僅是程式碼本身，更包含問題解決的流程與溝通能力。這篇文章將分享我在面試過程中常見的三大難題，以及如何以更具條理的方式回應，讓你在面試場合中脫穎而出。
+                      </p>
+                      <div class="d-flex mt-auto">
+                        <a href="#"
+                        class="border border-1 border-dark rounded rounded-5 py-8 px-16 text-gray ">閱讀內文</a>
+                      </div>
                       </div>
                     </div>
 
-                    <div class="col-xl-4 h-100">
+                    <div class="col-12 col-xl-4 ">
                       <div class="d-flex flex-column h-100">
-                        <img class="w-100 mb-16"
-                          src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/photo7.png?raw=true"
-                          alt="CSS 魔法大揭密：排版與設計的三大關鍵技巧" />
-                        <time datetime="2024/09/03">2024/09/03</time>
-                        <div class="mb-8 h-100">
-                          <a href="#" class="me-8 fs-24 text-secondary">#CSS 設計</a>
-                          <a href="#" class="fs-24 text-secondary">#視覺體驗</a>
-                        </div>
-                        <h3>CSS 魔法大揭密：排版與設計的三大關鍵技巧</h3>
-                        <p style="
-                      text-overflow: ellipsis;
-                      display: -webkit-box;
-                      overflow: hidden;
-                      -webkit-box-orient: vertical;
-                      -webkit-line-clamp: 2;
-                    " class="flex-grow-1 mb-16">
-                          在瀏覽器畫面上實現各種精美介面，一直是前端開發充滿成就感的部分。但當面臨複雜的佈局需求或是響應式設計時，往往讓人抓破頭皮。這篇文章想跟大家分享我在實務專案中累積的三大技巧，幫助你更有效率地駕馭
-                          CSS，打造兼具美感與功能性的網頁。
-                        </p>
-                        <div class="d-flex mt-auto">
-                          <a href="#"
-                            class="border border-1 border-dark rounded rounded-5 py-8 px-16 text-gray mt-auto ">閱讀內文</a>
-                        </div>
+                      <img class="w-100 mb-16"
+                        src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/photo7.png?raw=true"
+                        alt="CSS 魔法大揭密：排版與設計的三大關鍵技巧" />
+                      <time datetime="2024/09/03">2024/09/03</time>
+                      <div class="mb-8 tag-height-80"  >
+                        <a href="#" class="me-8 fs-24 text-secondary">#CSS設計</a>
+                        <a href="#" class="fs-24 text-secondary">#視覺體驗</a>
+                      </div>
+                      <h3>CSS 魔法大揭密：排版與設計的三大關鍵技巧</h3>
+                      <p class="flex-grow-1" style="
+                          text-overflow: ellipsis;
+                          display: -webkit-box;
+                          overflow: hidden;
+                          -webkit-box-orient: vertical;
+                          -webkit-line-clamp: 2;
+                          line-clamp: 2;
+                        ">
+                        在瀏覽器畫面上實現各種精美介面，一直是前端開發充滿成就感的部分。但當面臨複雜的佈局需求或是響應式設計時，往往讓人抓破頭皮。這篇文章想跟大家分享我在實務專案中累積的三大技巧，幫助你更有效率地駕馭CSS，打造兼具美感與功能性的網頁。
+                      </p>
+                      <div class="d-flex mt-auto">
+                        <a href="#"
+                        class="border border-1 border-dark rounded rounded-5 py-8 px-16 text-gray ">閱讀內文</a>
+                      </div>
                       </div>
                     </div>
                   </div>
@@ -754,7 +755,8 @@
                 </div>
               </div>
               <hr class="">
-              <a href="#" class="border border-dark rounded rounded-5  py-8 px-16 text-gray w-50 text-center">前往聆聽 podcast</a>
+              <a href="#" class="border border-dark rounded rounded-5  py-8 px-16 text-gray w-50 text-center">前往聆聽
+                podcast</a>
             </div>
           </div>
 
@@ -775,7 +777,8 @@
                 </div>
               </div>
               <hr class="">
-              <a href="#" class="border border-dark rounded rounded-5 py-8 px-16 text-gray w-50 text-center">前往聆聽 podcast</a>
+              <a href="#" class="border border-dark rounded rounded-5 py-8 px-16 text-gray w-50 text-center">前往聆聽
+                podcast</a>
             </div>
           </div>
 
@@ -796,7 +799,8 @@
                 </div>
               </div>
               <hr class="">
-              <a href="#" class="border border-dark rounded rounded-5 py-8 px-16 text-gray w-50 text-center">前往聆聽 podcast</a>
+              <a href="#" class="border border-dark rounded rounded-5 py-8 px-16 text-gray w-50 text-center">前往聆聽
+                podcast</a>
             </div>
           </div>
 
@@ -817,7 +821,8 @@
                 </div>
               </div>
               <hr class="">
-              <a href="#" class="border border-dark rounded rounded-5 py-8 px-16 text-gray w-50 text-center">前往聆聽 podcast</a>
+              <a href="#" class="border border-dark rounded rounded-5 py-8 px-16 text-gray w-50 text-center">前往聆聽
+                podcast</a>
             </div>
           </div>
 
@@ -1082,6 +1087,7 @@ export default {
 
 
 
+
 @media (min-width: 375px) and (max-width:768px) {
   .hero-section {
     width: 100% !important;
@@ -1139,7 +1145,17 @@ export default {
 
 }
 
+@media (min-width: 1200px) {
+  .tag-height-80{
+    min-height: 80px;
+  }
+}
+
 @media (min-width: 1296px) {
+  .tag-height-80 {
+    min-height:40px
+  }
+
   .service-right {
     transform: translateX(90%) translateY(50%);
     width: 105%;
