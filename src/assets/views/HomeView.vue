@@ -1152,9 +1152,6 @@ export default {
 }
 
 @media (min-width: 1296px) {
-  .tag-height-80 {
-    min-height:40px
-  }
 
   .service-right {
     transform: translateX(90%) translateY(50%);
@@ -1181,6 +1178,10 @@ export default {
   .tag-w30 {
     display: inline-block;
     width: 25%;
+  }
+
+  .tag-height-80 {
+    min-height:40px
   }
 }
 </style>
