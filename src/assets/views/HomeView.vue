@@ -738,75 +738,87 @@
       <div class="container" style="background-color: #F5F5F5;">
         <div class="row">
           <div class="col-12 col-lg-3 p-24">
-            <img
-              src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/people.png?raw=true"
-              class="mb-8" alt="無經驗到前端工程師 Offer">
-            <h3 class="fs-lg-24 ">無經驗到前端工程師 Offer</h3>
-            <div class="d-flex">
-              <i class="bi bi-check-square-fill me-8 text-secondary"></i>
-              <p class="text-gray">打造前端專案與履歷亮點</p>
+            <div class="h-100 d-flex flex-column">
+              <img
+                src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/people.png?raw=true"
+                class="mb-8 " alt="無經驗到前端工程師 Offer" style="height: 80px; width: 80px">
+              <h3 class="fs-lg-24 ">無經驗到前端工程師 Offer</h3>
+              <div class="flex-grow-1">
+                <div class="d-flex">
+                  <i class="bi bi-check-square-fill me-8 text-secondary"></i>
+                  <p class="text-gray">打造前端專案與履歷亮點</p>
+                </div>
+                <div class="d-flex ">
+                  <i class="bi bi-check-square-fill me-8 text-secondary"></i>
+                  <p class="text-gray  ">深度強化面試表現</p>
+                </div>
+              </div>
+              <hr class="">
+              <a href="#" class="border border-dark rounded rounded-5  py-8 px-16 text-gray w-50 text-center">前往聆聽 podcast</a>
             </div>
-
-            <div class="d-flex ">
-              <i class="bi bi-check-square-fill me-8 text-secondary"></i>
-              <p class="text-gray  ">深度強化面試表現</p>
-            </div>
-            <hr class="">
-            <a href="#" class="border border-dark rounded rounded-5  py-8 px-16 text-gray">前往聆聽 podcast</a>
           </div>
 
           <div class="col-12 col-lg-3 p-24">
-            <img
-              src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/people2.png?raw=true"
-              class="mb-8" alt="轉職迷茫到明確學習規劃">
-            <h3 class="fs-lg-24 ">轉職迷茫到明確學習規劃</h3>
-            <div class="d-flex">
-              <i class="bi bi-check-square-fill me-8 text-secondary"></i>
-              <p class="text-gray">制訂階段性目標與時間安排</p>
+            <div class="h-100 d-flex flex-column">
+              <img
+                src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/people2.png?raw=true"
+                class="mb-8" alt="轉職迷茫到明確學習規劃" style="height: 80px; width: 80px">
+              <h3 class="fs-lg-24 ">轉職迷茫到明確學習規劃</h3>
+              <div class="flex-grow-1">
+                <div class="d-flex">
+                  <i class="bi bi-check-square-fill me-8 text-secondary"></i>
+                  <p class="text-gray">制訂階段性目標與時間安排</p>
+                </div>
+                <div class="d-flex ">
+                  <i class="bi bi-check-square-fill me-8 text-secondary"></i>
+                  <p class="text-gray  ">鼓勵參與前端社群或活動</p>
+                </div>
+              </div>
+              <hr class="">
+              <a href="#" class="border border-dark rounded rounded-5 py-8 px-16 text-gray w-50 text-center">前往聆聽 podcast</a>
             </div>
-
-            <div class="d-flex ">
-              <i class="bi bi-check-square-fill me-8 text-secondary"></i>
-              <p class="text-gray  ">鼓勵參與前端社群或活動</p>
-            </div>
-            <hr>
-            <a href="#" class="border border-dark rounded rounded-5 py-8 px-16 text-gray">前往聆聽 podcast</a>
           </div>
 
           <div class="col-12 col-lg-3 p-24">
-            <img
-              src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/people3.png?raw=true"
-              class="mb-8" alt="面試緊張到從容應對">
-            <h3 class="fs-lg-24 ">面試緊張到從容應對</h3>
-            <div class="d-flex">
-              <i class="bi bi-check-square-fill me-8 text-secondary"></i>
-              <p class="text-gray">透過面試模擬找出常犯的邏輯漏洞</p>
+            <div class="h-100 d-flex flex-column">
+              <img
+                src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/people3.png?raw=true"
+                class="mb-8" alt="面試緊張到從容應對" style="height: 80px; width: 80px">
+              <h3 class="fs-lg-24 ">面試緊張到從容應對</h3>
+              <div class="flex-grow-1">
+                <div class="d-flex">
+                  <i class="bi bi-check-square-fill me-8 text-secondary"></i>
+                  <p class="text-gray">透過面試模擬找出常犯的邏輯漏洞</p>
+                </div>
+                <div class="d-flex ">
+                  <i class="bi bi-check-square-fill me-8 text-secondary"></i>
+                  <p class="text-gray ">討論遇到不熟悉議題時的回應方式</p>
+                </div>
+              </div>
+              <hr class="">
+              <a href="#" class="border border-dark rounded rounded-5 py-8 px-16 text-gray w-50 text-center">前往聆聽 podcast</a>
             </div>
-
-            <div class="d-flex ">
-              <i class="bi bi-check-square-fill me-8 text-secondary"></i>
-              <p class="text-gray ">討論遇到不熟悉議題時的回應方式</p>
-            </div>
-            <hr>
-            <a href="#" class="border border-dark rounded rounded-5 py-8 px-16 text-gray">前往聆聽 podcast</a>
           </div>
 
           <div class="col-12 col-lg-3 p-24">
-            <img
-              src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/people4.png?raw=true"
-              class="mb-8" alt="面試緊張到從容應對">
-            <h3 class="fs-lg-24 ">面試緊張到從容應對</h3>
-            <div class="d-flex">
-              <i class="bi bi-check-square-fill me-8 text-secondary"></i>
-              <p class="text-gray">擬定進階框架或技術研究目標</p>
+            <div class="h-100 d-flex flex-column">
+              <img
+                src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/people4.png?raw=true"
+                class="mb-8" alt="面試緊張到從容應對" style="height: 80px; width: 80px">
+              <h3 class="fs-lg-24 ">面試緊張到從容應對</h3>
+              <div class="flex-grow-1">
+                <div class="d-flex">
+                  <i class="bi bi-check-square-fill me-8 text-secondary"></i>
+                  <p class="text-gray">擬定進階框架或技術研究目標</p>
+                </div>
+                <div class="d-flex ">
+                  <i class="bi bi-check-square-fill me-8 text-secondary"></i>
+                  <p class="text-gray ">培養跨團隊溝通與簡報能力</p>
+                </div>
+              </div>
+              <hr class="">
+              <a href="#" class="border border-dark rounded rounded-5 py-8 px-16 text-gray w-50 text-center">前往聆聽 podcast</a>
             </div>
-
-            <div class="d-flex ">
-              <i class="bi bi-check-square-fill me-8 text-secondary"></i>
-              <p class="text-gray ">培養跨團隊溝通與簡報能力</p>
-            </div>
-            <hr>
-            <a href="#" class="border border-dark rounded rounded-5 py-8 px-16 text-gray">前往聆聽 podcast</a>
           </div>
 
         </div>
@@ -844,7 +856,8 @@
                       type="email" name="EMAIL" class="required email form-control bg-light-gray " id="mce-EMAIL"
                       required="" value="" placeholder="請輸入您的 Email"></div>
                   <div class="mc-field-group"><label for="mce-FNAME"> </label><input type="text" name="FNAME"
-                      class=" text form-control bg-light-gray mb-8" id="mce-FNAME" value="" placeholder="請輸入您的大名"></div>
+                      class=" text form-control bg-light-gray mb-24" id="mce-FNAME" value="" placeholder="請輸入您的大名">
+                  </div>
                   <div id="mce-responses" class="clear foot">
                     <div class="response" id="mce-error-response" style="display: none;"></div>
                     <div class="response" id="mce-success-response" style="display: none;"></div>
@@ -904,7 +917,8 @@
                       type="email" name="EMAIL" class="required email form-control bg-light-gray " id="mce-EMAIL"
                       required="" value="" placeholder="請輸入您的 Email"></div>
                   <div class="mc-field-group"><label for="mce-FNAME"> </label><input type="text" name="FNAME"
-                      class=" text form-control bg-light-gray mb-8" id="mce-FNAME" value="" placeholder="請輸入您的大名"></div>
+                      class=" text form-control bg-light-gray mb-24" id="mce-FNAME" value="" placeholder="請輸入您的大名">
+                  </div>
                   <div id="mce-responses" class="clear foot">
                     <div class="response" id="mce-error-response" style="display: none;"></div>
                     <div class="response" id="mce-success-response" style="display: none;"></div>
@@ -1012,28 +1026,7 @@ export default {
       },  // 新增錯誤狀態
     };
   },
-  methods: {
-    validateName() {
-      if (this.userInfo.name === '' || this.userInfo.name === null) {
-        this.errors.name = '姓名不得為空白';
-      } else {
-        this.errors.name = null;
-      }
-    },
 
-    validateEmail() {
-      if (this.userInfo.email === '' || this.userInfo.email === null) {
-        this.errors.email = 'Email 不得為空白';
-      } else {
-        this.errors.email = null;
-      }
-    },
-
-    handleMailchimpSubmit() {
-
-    }
-
-  },
   mounted() {
     // swiper
     const swiper = new Swiper('.swiper', {
