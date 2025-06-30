@@ -834,16 +834,40 @@
           <p class="fs-64 fw-bold mb-16">訂閱電子報</p>
           <p class="mb-24">立即訂閱，搶先掌握前端 x 職涯的獨家資訊！</p>
           <form>
-            <input type="text" class="form-control w-100 mb-8" placeholder="請輸入您的大名" aria-label="請輸入您的大名"
-              aria-describedby="basic-addon1" style="background-color: #F1F1F1;" v-model="userInfo.name"
-              @blur="validateName()">
-            <span class="text-danger mb-8 fw-bold d-block" v-if="this.errors.name">{{ this.errors.name }}</span>
-            <input type="text" class="form-control  w-100  mb-8" placeholder="請輸入您的電子信箱" aria-label="請輸入您的電子信箱"
-              aria-describedby="basic-addon1" style="background-color: #F1F1F1;" v-model="userInfo.email" @blur="validateEmail()">
-            <span class="text-danger mb-8 fw-bold d-block" v-if="this.errors.email">{{ this.errors.email }}</span>
-            <button class="fw-bold text-secondary py-8 px-16 border border-secondary rounded rounded-5">啟動訂閱</button>
-            
+            <div id="mc_embed_signup">
+              <form
+                action="https://gmail.us4.list-manage.com/subscribe/post?u=6a1ba0f1a1b953408452f04cd&amp;id=156dd4244e&amp;f_id=001194e5f0"
+                method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+                target="_blank">
+                <div id="mc_embed_signup_scroll">
+                  <div class="mc-field-group"><label for="mce-EMAIL"> <span class="asterisk"></span></label><input
+                      type="email" name="EMAIL" class="required email form-control bg-light-gray " id="mce-EMAIL"
+                      required="" value="" placeholder="請輸入您的 Email"></div>
+                  <div class="mc-field-group"><label for="mce-FNAME"> </label><input type="text" name="FNAME"
+                      class=" text form-control bg-light-gray mb-8" id="mce-FNAME" value="" placeholder="請輸入您的大名"></div>
+                  <div id="mce-responses" class="clear foot">
+                    <div class="response" id="mce-error-response" style="display: none;"></div>
+                    <div class="response" id="mce-success-response" style="display: none;"></div>
+                  </div>
+                  <div aria-hidden="true" style="position: absolute; left: -5000px;">
+                    /* real people should not fill this in and expect good things - do not remove this or risk form bot
+                    signups */
+                    <input type="text" name="b_6a1ba0f1a1b953408452f04cd_156dd4244e" tabindex="-1" value="">
+                  </div>
+
+                  <div class="optionalParent">
+                    <div class="clear foot">
+                      <input type="submit" name="訂閱電子報
+                      " id="mc-embedded-subscribe"
+                        class="button fw-bold text-secondary py-8 px-16 border border-secondary rounded rounded-5"
+                        value="訂閱電子報">
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
           </form>
+          <!-- * 表單結束 -->
         </div>
       </div>
     </div>
@@ -868,11 +892,41 @@
         <div class="bg-white my-auto mx-auto w-75  py-40 px-24">
           <p class="fs-32 fs-md-48 fw-bold mb-16">訂閱電子報</p>
           <p class="mb-24 fs-20">立即訂閱，搶先掌握前端 x 職涯的獨家資訊！</p>
-          <input type="text" class="form-control w-100 mb-8" placeholder="請輸入您的大名" aria-label="請輸入您的大名"
-            aria-describedby="basic-addon1" style="background-color: #F1F1F1;">
-          <input type="text" class="form-control  w-100 mb-24" placeholder="請輸入您的電子信箱" aria-label="請輸入您的電子信箱"
-            aria-describedby="basic-addon1" style="background-color: #F1F1F1;">
-          <a href="#" class="fw-bold text-secondary py-8 px-16 border border-secondary rounded rounded-5">啟動訂閱</a>
+
+          <form>
+            <div id="mc_embed_signup">
+              <form
+                action="https://gmail.us4.list-manage.com/subscribe/post?u=6a1ba0f1a1b953408452f04cd&amp;id=156dd4244e&amp;f_id=001194e5f0"
+                method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+                target="_blank">
+                <div id="mc_embed_signup_scroll">
+                  <div class="mc-field-group"><label for="mce-EMAIL"> <span class="asterisk"></span></label><input
+                      type="email" name="EMAIL" class="required email form-control bg-light-gray " id="mce-EMAIL"
+                      required="" value="" placeholder="請輸入您的 Email"></div>
+                  <div class="mc-field-group"><label for="mce-FNAME"> </label><input type="text" name="FNAME"
+                      class=" text form-control bg-light-gray mb-8" id="mce-FNAME" value="" placeholder="請輸入您的大名"></div>
+                  <div id="mce-responses" class="clear foot">
+                    <div class="response" id="mce-error-response" style="display: none;"></div>
+                    <div class="response" id="mce-success-response" style="display: none;"></div>
+                  </div>
+                  <div aria-hidden="true" style="position: absolute; left: -5000px;">
+                    /* real people should not fill this in and expect good things - do not remove this or risk form bot
+                    signups */
+                    <input type="text" name="b_6a1ba0f1a1b953408452f04cd_156dd4244e" tabindex="-1" value="">
+                  </div>
+
+                  <div class="optionalParent">
+                    <div class="clear foot">
+                      <input type="submit" name="訂閱電子報
+                      " id="mc-embedded-subscribe"
+                        class="button fw-bold text-secondary py-8 px-16 border border-secondary rounded rounded-5"
+                        value="訂閱電子報">
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </form>
         </div>
       </div>
 
@@ -975,10 +1029,10 @@ export default {
       }
     },
 
-    clickSubscription() {
+    handleMailchimpSubmit() {
 
     }
-    
+
   },
   mounted() {
     // swiper
