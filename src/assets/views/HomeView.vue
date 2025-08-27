@@ -1,14 +1,15 @@
 <template>
-  <div class="container-fluid  position-relative bg-main-bg">
+  <HeaderView/>
+  <div class="container-fluid  position-relative bg-white">
     <!-- * Hero Section -->
-    <div class="container-fluid  d-none d-lg-flex pb-lg-200">
+    <div class="container-fluid  d-none d-lg-flex pb-lg-200 hero-section-lg">
       <div class="container-fluid " style="
           background-position: center;
           height: 834px;
           background-repeat: no-repeat;
           background-image: url('./Alyse-Wang.jpg');
           background-size: cover;
-        "></div>
+        " id="hero-section-lg"></div>
 
       <div class="container-fluid px-0 ps-80 pt-300 d-flex flex-column flex-nowrap d-none d-md-block" style="
           height: 834px;
@@ -355,7 +356,7 @@
     <!-- * 部落格精選 -->
     <div class="container-fluid  border-black border-bottom  border-2 border-top px-0 py-60 py-lg-80">
       <div class="container">
-        <h2 class="fs-64 fw-bolder  mb-24">部落格精選</h2>
+        <h2 class="fs-64 fw-bolder  mb-24 p1">部落格精選</h2>
       </div>
 
       <!-- * xl carousel -->
@@ -390,19 +391,19 @@
                   <div class="row ">
                     <div class="col-12 col-xl-4  ">
                       <div class="d-flex flex-column h-100">
-                      <img
-                        src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/photo5.png?raw=true"
-                        alt="自學前端不用怕：從零開始的三大關鍵" class="mb-16 w-100" />
-                      <time datetime="2024/10/21">2024/10/21</time>
-                      <div class=" mb-8 tag-height-80"  >
-                        <a href="#" class="me-8 text-secondary fs-24">#前端開發</a>
-                        <a href="#" class="me-8 text-secondary fs-24">#職涯成長</a>
-                        <a href="#"
-                        class="border border-secondary rounded rounded-5 text-white bg-secondary py-8 px-16 tag-w30">最新文章
-                        </a>
-                      </div>
-                      <h3>自學前端不用怕：從零開始的三大關鍵</h3>
-                      <p class="flex-grow-1" style="
+                        <img
+                          src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/photo5.png?raw=true"
+                          alt="自學前端不用怕：從零開始的三大關鍵" class="mb-16 w-100" />
+                        <time datetime="2024/10/21">2024/10/21</time>
+                        <div class=" mb-8 tag-height-80">
+                          <a href="#" class="me-8 text-secondary fs-24">#前端開發</a>
+                          <a href="#" class="me-8 text-secondary fs-24">#職涯成長</a>
+                          <a href="#"
+                            class="border border-secondary rounded rounded-5 text-white bg-secondary py-8 px-16 tag-w30">最新文章
+                          </a>
+                        </div>
+                        <h3>自學前端不用怕：從零開始的三大關鍵</h3>
+                        <p class="flex-grow-1" style="
                           text-overflow: ellipsis;
                           display: -webkit-box;
                           overflow: hidden;
@@ -410,31 +411,33 @@
                           -webkit-line-clamp: 2;
                           line-clamp: 2;
                         ">
-                        嗨，我是
-                        Alyse，一名前端工程師兼職涯諮詢師。一直以來，我都很喜歡在部落格分享學習與工作心得，也常有讀者問：「我想轉職/自學前端，該從哪裡開始？」其實自學的過程既自由又具挑戰性。我整理了三大關鍵，幫助你在短期內建立紮實基礎，並快速累積實戰經驗。希望能替你的前端之路帶來一些啟發與動力！
-                      </p>
-                      <div class="d-flex mt-auto">
-                        <a href="#"
-                        class="border border-1 border-dark rounded rounded-5 py-8 px-16 text-gray ">閱讀內文</a>
-                      </div>
+                          嗨，我是
+                          Alyse，一名前端工程師兼職涯諮詢師。一直以來，我都很喜歡在部落格分享學習與工作心得，也常有讀者問：「我想轉職/自學前端，該從哪裡開始？」其實自學的過程既自由又具挑戰性。我整理了三大關鍵，幫助你在短期內建立紮實基礎，並快速累積實戰經驗。希望能替你的前端之路帶來一些啟發與動力！
+                        </p>
+                        <div class="d-flex mt-auto">
+                          <button
+                            class="btn btn-hover border border-1 border-dark rounded rounded-5 py-8 px-16 text-gray">
+                            閱讀內文
+                          </button>
+                        </div>
                       </div>
                     </div>
 
                     <div class="col-12 col-xl-4 ">
                       <div class="d-flex flex-column h-100">
-                      <img class="w-100 mb-16"
-                        src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/photo6.png?raw=true"
-                        alt="前端面試不再慌：破解常見提問的三大策略" />
-                      <time datetime="2024/07/08">2024/07/08</time>
-                      <div class=" mb-8 tag-height-80" >
-                        <a href="#" class="me-8 text-secondary fs-24">#面試準備</a>
-                        <a href="#" class="me-8 text-secondary fs-24">#工程師求職</a>
-                        <a href="#"
-                        class="border border-secondary rounded rounded-5 text-white bg-secondary py-8 px-16 tag-w30">人氣文章
-                        </a>
-                      </div>
-                      <h3>前端面試不再慌：破解常見提問的三大策略</h3>
-                      <p class="flex-grow-1" style="
+                        <img class="w-100 mb-16"
+                          src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/photo6.png?raw=true"
+                          alt="前端面試不再慌：破解常見提問的三大策略" />
+                        <time datetime="2024/07/08">2024/07/08</time>
+                        <div class=" mb-8 tag-height-80">
+                          <a href="#" class="me-8 text-secondary fs-24">#面試準備</a>
+                          <a href="#" class="me-8 text-secondary fs-24">#工程師求職</a>
+                          <a href="#"
+                            class="border border-secondary rounded rounded-5 text-white bg-secondary py-8 px-16 tag-w30">人氣文章
+                          </a>
+                        </div>
+                        <h3>前端面試不再慌：破解常見提問的三大策略</h3>
+                        <p class="flex-grow-1" style="
                           text-overflow: ellipsis;
                           display: -webkit-box;
                           overflow: hidden;
@@ -442,27 +445,27 @@
                           -webkit-line-clamp: 2;
                           line-clamp: 2;
                         ">
-                        面試前端工程師時，你或許擔心被問到各種刁鑽的技術題目，或是擔憂無法在短時間內展現實力。其實，許多面試官關注的重點並不僅是程式碼本身，更包含問題解決的流程與溝通能力。這篇文章將分享我在面試過程中常見的三大難題，以及如何以更具條理的方式回應，讓你在面試場合中脫穎而出。
-                      </p>
-                      <div class="d-flex mt-auto">
-                        <a href="#"
-                        class="border border-1 border-dark rounded rounded-5 py-8 px-16 text-gray ">閱讀內文</a>
-                      </div>
+                          面試前端工程師時，你或許擔心被問到各種刁鑽的技術題目，或是擔憂無法在短時間內展現實力。其實，許多面試官關注的重點並不僅是程式碼本身，更包含問題解決的流程與溝通能力。這篇文章將分享我在面試過程中常見的三大難題，以及如何以更具條理的方式回應，讓你在面試場合中脫穎而出。
+                        </p>
+                        <div class="d-flex mt-auto">
+                          <button
+                            class="btn btn-hover border border-1 border-dark rounded rounded-5 py-8 px-16 text-gray">閱讀內文</button>
+                        </div>
                       </div>
                     </div>
 
                     <div class="col-12 col-xl-4 ">
                       <div class="d-flex flex-column h-100">
-                      <img class="w-100 mb-16"
-                        src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/photo7.png?raw=true"
-                        alt="CSS 魔法大揭密：排版與設計的三大關鍵技巧" />
-                      <time datetime="2024/09/03">2024/09/03</time>
-                      <div class="mb-8 tag-height-80"  >
-                        <a href="#" class="me-8 fs-24 text-secondary">#CSS設計</a>
-                        <a href="#" class="fs-24 text-secondary">#視覺體驗</a>
-                      </div>
-                      <h3>CSS 魔法大揭密：排版與設計的三大關鍵技巧</h3>
-                      <p class="flex-grow-1" style="
+                        <img class="w-100 mb-16"
+                          src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/photo7.png?raw=true"
+                          alt="CSS 魔法大揭密：排版與設計的三大關鍵技巧" />
+                        <time datetime="2024/09/03">2024/09/03</time>
+                        <div class="mb-8 tag-height-80">
+                          <a href="#" class="me-8 fs-24 text-secondary">#CSS設計</a>
+                          <a href="#" class="fs-24 text-secondary">#視覺體驗</a>
+                        </div>
+                        <h3>CSS 魔法大揭密：排版與設計的三大關鍵技巧</h3>
+                        <p class="flex-grow-1" style="
                           text-overflow: ellipsis;
                           display: -webkit-box;
                           overflow: hidden;
@@ -470,12 +473,12 @@
                           -webkit-line-clamp: 2;
                           line-clamp: 2;
                         ">
-                        在瀏覽器畫面上實現各種精美介面，一直是前端開發充滿成就感的部分。但當面臨複雜的佈局需求或是響應式設計時，往往讓人抓破頭皮。這篇文章想跟大家分享我在實務專案中累積的三大技巧，幫助你更有效率地駕馭CSS，打造兼具美感與功能性的網頁。
-                      </p>
-                      <div class="d-flex mt-auto">
-                        <a href="#"
-                        class="border border-1 border-dark rounded rounded-5 py-8 px-16 text-gray ">閱讀內文</a>
-                      </div>
+                          在瀏覽器畫面上實現各種精美介面，一直是前端開發充滿成就感的部分。但當面臨複雜的佈局需求或是響應式設計時，往往讓人抓破頭皮。這篇文章想跟大家分享我在實務專案中累積的三大技巧，幫助你更有效率地駕馭CSS，打造兼具美感與功能性的網頁。
+                        </p>
+                        <div class="d-flex mt-auto">
+                          <button
+                            class="btn btn-hover border border-1 border-dark rounded rounded-5 py-8 px-16 text-gray">閱讀內文</button>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -507,8 +510,8 @@
                           感到好奇，卻因為複雜的學習曲線而望之卻步？我建議你從最基礎的三個概念開始：元件、狀態與事件處理。這些是打造現代網頁應用的基石，也是每個前端工程師都必須掌握的核心技能。
                         </p>
                         <div class="d-flex mt-auto">
-                          <a href="#"
-                            class="border border-1 border-dark rounded rounded-5 py-8 px-16 text-gray ">閱讀內文</a>
+                          <button
+                            class="btn btn-hover border border-1 border-dark rounded rounded-5 py-8 px-16 text-gray">閱讀內文</button>
                         </div>
                       </div>
                     </div>
@@ -534,8 +537,8 @@
                           想在求職路上脫穎而出嗎？一個出色的前端作品集是你最有力的武器。不只是展示程式碼，更要說出專案背後的故事、解決的問題，以及你獨特的思考過程。
                         </p>
                         <div class="d-flex">
-                          <a href="#"
-                            class="border border-1 border-dark rounded rounded-5 py-8 px-16 text-gray mt-auto">閱讀內文</a>
+                          <button
+                            class="btn btn-hover border border-1 border-dark rounded rounded-5 py-8 px-16 text-gray">閱讀內文</button>
                         </div>
                       </div>
                     </div>
@@ -561,8 +564,8 @@
                           在瀏覽器畫面上實現各種精美介面，一直是前端開發充滿成就感的部分。但當面臨複雜的佈局需求或是響應式設計時，往往讓人抓破頭皮。這篇文章想跟大家分享我在實務專案中累積的三大技巧。
                         </p>
                         <div class="d-flex">
-                          <a href="#"
-                            class="border border-1 border-dark rounded rounded-5 py-8 px-16 text-gray mt-auto">閱讀內文</a>
+                          <button
+                            class="btn btn-hover border border-1 border-dark rounded rounded-5 py-8 px-16 text-gray">閱讀內文</button>
                         </div>
                       </div>
                     </div>
@@ -583,16 +586,22 @@
               <div class="container h-100">
                 <div class="row h-100">
                   <div class="col-12  h-100 ">
-                    <div class="d-flex flex-column h-100">
+                    <div class="d-flex flex-column  tag-height-80">
                       <img
                         src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/photo5.png?raw=true"
                         alt="自學前端不用怕：從零開始的三大關鍵" class="mb-16 w-100" />
                       <time datetime="2024/10/21">2024/10/21</time>
                       <div class=" mb-8">
-                        <a href="#" class="me-8 text-secondary fs-24">#前端開發</a>
-                        <a href="#" class="me-8 text-secondary fs-24">#職涯成長</a>
+                        <a href="#" class="me-16 text-secondary fs-24">#前端開發</a>
+                        <a href="#" class="me-16 text-secondary fs-24">#職涯成長</a>
                         <a href="#"
-                          class="border border-secondary rounded rounded-5 text-white bg-secondary py-8 px-16">最新文章
+                          class="border border-secondary rounded rounded-5 text-white bg-secondary py-8 px-16  d-block d-sm-inline d-md-none w-25 flex-wrap">最新<br>
+                          文章
+                        </a>
+
+                        <!-- * md 時多這行，上面這行消失 -->
+                        <a href="#"
+                          class="border border-secondary rounded rounded-5 text-white bg-secondary py-8 px-16 d-none d-md-block w-25 ">最新文章
                         </a>
                       </div>
                       <h3>自學前端不用怕：從零開始的三大關鍵</h3>
@@ -606,9 +615,9 @@
                         嗨，我是
                         Alyse，一名前端工程師兼職涯諮詢師。一直以來，我都很喜歡在部落格分享學習與工作心得，也常有讀者問：「我想轉職/自學前端，該從哪裡開始？」其實自學的過程既自由又具挑戰性。我整理了三大關鍵，幫助你在短期內建立紮實基礎，並快速累積實戰經驗。希望能替你的前端之路帶來一些啟發與動力！
                       </p>
-                      <div class="d-flex">
-                        <a href="#"
-                          class="border border-1 border-dark rounded rounded-5 py-8 px-16 text-gray mt-auto">閱讀內文</a>
+                      <div class="d-flex align-items-center" style="min-height:80px">
+                        <button class="btn btn-hover border border-1 border-dark rounded rounded-5 py-8 px-16 text-gray"
+                          style="height: 48px">閱讀內文</button>
                       </div>
                     </div>
                   </div>
@@ -641,8 +650,8 @@
                         CSS，打造兼具美感與功能性的網頁。
                       </p>
                       <div class="d-flex">
-                        <a href="#"
-                          class="border border-1 border-dark rounded rounded-5 py-8 px-16 text-gray mt-auto ">閱讀內文</a>
+                        <button
+                          class="btn btn-hover border border-1 border-dark rounded rounded-5 py-8 px-16 text-gray">閱讀內文</button>
                       </div>
                     </div>
                   </div>
@@ -674,8 +683,8 @@
                         在瀏覽器畫面上實現各種精美介面，一直是前端開發充滿成就感的部分。但當面臨複雜的佈局需求或是響應式設計時，往往讓人抓破頭皮。這篇文章想跟大家分享我在實務專案中累積的三大技巧。
                       </p>
                       <div class="d-flex">
-                        <a href="#"
-                          class="border border-1 border-dark rounded rounded-5 py-8 px-16 text-gray mt-auto ">閱讀內文</a>
+                        <button
+                          class="btn btn-hover border border-1 border-dark rounded rounded-5 py-8 px-16 text-gray">閱讀內文</button>
                       </div>
                     </div>
                   </div>
@@ -725,8 +734,8 @@
             </p>
             <div class="ms-lg-24 mb-24 py-140 px-40" style="background-color: #F5F5F5; ">
               <p class="fw-bold mb-24">期待在下一個新機會中，我能與你一起攜手邁向更高峰！</p>
-              <a href="#"
-                class="text-secondary border border-secondary border-1 rounded rounded-5 py-8 px-16 fw-bold">立即預約諮詢</a>
+              <button
+                class="text-secondary border border-secondary border-1 rounded rounded-5 py-8 px-16 fw-bold btn-hover">立即預約諮詢</button>
             </div>
           </div>
 
@@ -755,8 +764,8 @@
                 </div>
               </div>
               <hr class="">
-              <a href="#" class="border border-dark rounded rounded-5  py-8 px-16 text-gray w-50 text-center">前往聆聽
-                podcast</a>
+              <button
+                class="btn btn-hover border border-dark rounded rounded-5  py-8 px-16 text-gray w-50 text-center">前往聆聽</button>
             </div>
           </div>
 
@@ -777,8 +786,8 @@
                 </div>
               </div>
               <hr class="">
-              <a href="#" class="border border-dark rounded rounded-5 py-8 px-16 text-gray w-50 text-center">前往聆聽
-                podcast</a>
+              <button
+                class="btn btn-hover border border-dark rounded rounded-5  py-8 px-16 text-gray w-50 text-center">前往聆聽</button>
             </div>
           </div>
 
@@ -799,8 +808,8 @@
                 </div>
               </div>
               <hr class="">
-              <a href="#" class="border border-dark rounded rounded-5 py-8 px-16 text-gray w-50 text-center">前往聆聽
-                podcast</a>
+              <button
+                class="btn btn-hover border border-dark rounded rounded-5  py-8 px-16 text-gray w-50 text-center">前往聆聽</button>
             </div>
           </div>
 
@@ -821,8 +830,8 @@
                 </div>
               </div>
               <hr class="">
-              <a href="#" class="border border-dark rounded rounded-5 py-8 px-16 text-gray w-50 text-center">前往聆聽
-                podcast</a>
+              <button
+                class="btn btn-hover border border-dark rounded rounded-5  py-8 px-16 text-gray w-50 text-center">前往聆聽</button>
             </div>
           </div>
 
@@ -877,8 +886,8 @@
                     <div class="clear foot">
                       <input type="submit" name="訂閱電子報
                       " id="mc-embedded-subscribe"
-                        class="button fw-bold text-secondary py-8 px-16 border border-secondary rounded rounded-5"
-                        value="訂閱電子報">
+                        class="button fw-bold text-secondary py-8 px-16 border border-secondary rounded rounded-5 btn-hover"
+                        value="訂閱電子報" @click="submitInfo">
                     </div>
                   </div>
                 </div>
@@ -963,49 +972,59 @@
           </div>
         </div>
 
-        <div class="d-flex justify-content-between border-dark border-bottom mb-16">
-          <div class="d-flex align-items-center">
-            <i class="bi bi-youtube text-secondary me-16 fs-32"></i>
-            <a href="#" class="text-dark me-16 fs-24 fs-lg-28 text-decoration-none">YouTube</a>
-            <p class="fs-24 fs-lg-28 mb-0">職涯諮詢室</p>
+        <div class="d-flex justify-content-between border-dark border-bottom mb-16 pb-8">
+          <div class="d-flex link-hover">
+            <a class="d-flex align-items-center" href="#">
+              <i class="bi bi-youtube text-secondary me-16 fs-32"></i>
+              <a href="#" class="text-dark me-16 fs-24 fs-lg-32 text-decoration-none">YouTube</a>
+              <p class="fs-24 fs-lg-32 mb-0">職涯諮詢室</p>
+            </a>
           </div>
-          <a href="#" class="text-dark"><i class="bi bi-arrow-right fs-24"></i></a>
+          <a href="#" class="link-hover"><i class="bi text-dark bi-arrow-right fs-24 arrow-hover"></i></a>
         </div>
 
-        <div class="d-flex justify-content-between border-dark border-bottom mb-16">
-          <div class="d-flex align-items-center">
-            <i class="bi bi-mic-fill text-secondary me-16 fs-32"></i>
-            <a href="#" class="text-dark me-16 fs-24 fs-lg-28 text-decoration-none">Podcast</a>
-            <p class="fs-24 fs-lg-28 mb-0">職涯諮詢室</p>
+        <div class="d-flex justify-content-between border-dark border-bottom mb-16 pb-8">
+          <div class="d-flex link-hover">
+            <a class="d-flex align-items-center" href="#">
+              <i class="bi bi-mic-fill text-secondary me-16 fs-32"></i>
+              <a href="#" class="text-dark me-16 fs-24 fs-lg-32 text-decoration-none">Podcast</a>
+              <p class="fs-24 fs-lg-32 mb-0">職涯諮詢室</p>
+            </a>
           </div>
-          <a href="#" class="text-dark"><i class="bi bi-arrow-right fs-24"></i></a>
+          <a href="#" class="link-hover"><i class="bi text-dark bi-arrow-right fs-24 arrow-hover"></i></a>
         </div>
 
-        <div class="d-flex justify-content-between border-dark border-bottom mb-16">
-          <div class="d-flex align-items-center">
-            <i class="bi bi-facebook text-secondary me-16 fs-24 fs-lg-28"></i>
-            <a href="#" class="text-dark me-16 fs-24 fs-lg-28 text-decoration-none">Facebook</a>
-            <p class="fs-24 fs-lg-28 mb-0">前端社群</p>
+        <div class="d-flex justify-content-between border-dark border-bottom mb-16 pb-8">
+          <div class="d-flex link-hover">
+            <a class="d-flex align-items-center" href="#">
+              <i class="bi bi-facebook text-secondary me-16 fs-32"></i>
+              <a href="#" class="text-dark me-16 fs-24 fs-lg-32 text-decoration-none">Facebook</a>
+              <p class="fs-24 fs-lg-32 mb-0">前端社群</p>
+            </a>
           </div>
-          <a href="#" class="text-dark"><i class="bi bi-arrow-right fs-24"></i></a>
+          <a href="#" class="link-hover"><i class="bi text-dark bi-arrow-right fs-24 arrow-hover"></i></a>
         </div>
 
-        <div class="d-flex justify-content-between border-dark border-bottom mb-16">
-          <div class="d-flex align-items-center">
-            <i class="bi bi-linkedin text-secondary me-16 fs-32"></i>
-            <a href="#" class="text-dark me-16 fs-24 fs-lg-28 text-decoration-none">LinkedIn</a>
-            <p class="fs-24 fs-lg-28 mb-0">職涯交流</p>
+        <div class="d-flex justify-content-between border-dark border-bottom mb-16 pb-8">
+          <div class="d-flex link-hover">
+            <a class="d-flex align-items-center" href="#">
+              <i class="bi bi-linkedin text-secondary me-16 fs-32"></i>
+              <a href="#" class="text-dark me-16 fs-24 fs-lg-32 text-decoration-none">LinkedIn</a>
+              <p class="fs-24 fs-lg-32 mb-0">職涯交流</p>
+            </a>
           </div>
-          <a href="#" class="text-dark"><i class="bi bi-arrow-right fs-24"></i></a>
+          <a href="#" class="link-hover"><i class="bi text-dark bi-arrow-right fs-24 arrow-hover"></i></a>
         </div>
 
-        <div class="d-flex justify-content-between border-dark border-bottom mb-16">
-          <div class="d-flex align-items-center">
-            <i class="bi bi-instagram text-secondary me-16 fs-32"></i>
-            <a href="#" class="text-dark me-16 fs-24 fs-lg-28 text-decoration-none">Instagram</a>
-            <p class="fs-24 fs-lg-28 mb-0">日常分享</p>
+        <div class="d-flex justify-content-between border-dark border-bottom mb-16 pb-8">
+          <div class="d-flex link-hover">
+            <a class="d-flex align-items-center" href="#">
+              <i class="bi bi-instagram text-secondary me-16 fs-32"></i>
+              <a href="#" class="text-dark me-16 fs-24 fs-lg-32 text-decoration-none">Instagram</a>
+              <p class="fs-24 fs-lg-32 mb-0">日常分享</p>
+            </a>
           </div>
-          <a href="#" class="text-dark"><i class="bi bi-arrow-right fs-24"></i></a>
+          <a href="#" class="link-hover"><i class="bi text-dark bi-arrow-right fs-24 arrow-hover"></i></a>
         </div>
       </div>
     </div>
@@ -1014,11 +1033,13 @@
 </template>
 
 <script>
-// Import Swiper and modules
-import Swiper from 'swiper';
-import { Navigation, Pagination, Scrollbar } from 'swiper/modules';
+// import GSAP
+import { gsap } from "gsap";
+import HeaderView from '@/components/HeaderView.vue';
 
 export default {
+  name: 'HomeView',
+  components: { HeaderView },
   data() {
     return {
       userInfo: {
@@ -1032,17 +1053,21 @@ export default {
     };
   },
 
+  methods: {
+    submitInfo() {
+      setTimeout(() => {
+        const inputName = document.querySelector('#mce-FNAME');
+        inputName.value = '';
+
+        const inputEmail = document.querySelector('#mce-EMAIL');
+        inputEmail.value = '';
+      }, 1000);
+
+    }
+  },
+
   mounted() {
-    // swiper
-    const swiper = new Swiper('.swiper', {
-      // Install modules
-      modules: [ Navigation, Pagination, Scrollbar ],
-      speed: 500,
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-    });
+
   }
 };
 </script>
@@ -1085,8 +1110,28 @@ export default {
 }
 
 
+.btn-hover:hover {
+  color: white !important;
+  background: black;
+}
 
+.link-hover:hover {
+  transform: scale(1.1)
+}
 
+.arrow-hover:hover {
+  font-size: 28px !important;
+}
+
+@media (min-width: 375px) and (max-width: 404px) {
+  .tag-height-80 {
+    min-height: 80px !important;
+  }
+
+  .tag-w-100 {
+    width: 100% !important;
+  }
+}
 
 @media (min-width: 375px) and (max-width:768px) {
   .hero-section {
@@ -1146,7 +1191,7 @@ export default {
 }
 
 @media (min-width: 1200px) {
-  .tag-height-80{
+  .tag-height-80 {
     min-height: 80px;
   }
 }
@@ -1181,7 +1226,7 @@ export default {
   }
 
   .tag-height-80 {
-    min-height:40px
+    min-height: 40px
   }
 }
 </style>

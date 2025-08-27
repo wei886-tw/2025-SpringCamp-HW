@@ -8,7 +8,7 @@ import router from './router';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
-import 'swiper/css/bundle' // 加這行
+
 
 
 

@@ -4,15 +4,17 @@
 
 [ ] 串金流
 
+[ ] tag 換行
+
 [v] RWD
 
 [v] 改文字字體
 
 
 ## Tier 2
-[ ] 專業服務與方案的白色區域應該要滿版
+[v] 專業服務與方案的白色區域應該要滿版
 
-[] carousel 不等高
+[v] carousel 不等高
 
 [v] carousel indicator 在按鈕下面
 
