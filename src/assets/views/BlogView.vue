@@ -1,6 +1,7 @@
 <template>
   <HeaderView />
-  <div class="container-fluid bg-white">
+
+  <div class="container-fluid bg-main-bg pb-80 ">
     <!-- hero section1 start -->
     <div class="container-fluid d-flex border-bottom border-2 border-dark px-0">
       <div class="px-0 w-50 d-none d-lg-block container-fluid" style="
@@ -209,15 +210,50 @@
     </div>
     <!-- search area ends -->
 
-
+    <!-- pagination -->
+    <div class="container-fluid">
+      <div class="container border border-4 border-white rounded rounded-5 px-16 py-8 " style="width: 20%;">
+        <nav aria-label="Page navigation example ">
+          <ul class="pagination justify-content-center">
+            <li class="page-item"><a class="page-link text-black border border-white" href="#">＜ </a></li>
+            <li class="page-item "><a class="page-link border border-white " href="#">1</a></li>
+            <li class="page-item"><a class="page-link text-black border border-white" href="#">2</a></li>
+            <li class="page-item"><a class="page-link text-black border border-white" href="#">3</a></li>
+            <li class="page-item"><a class="page-link text-black border border-white" href="#">4</a></li>
+            <li class="page-item"><a class="page-link text-black border border-white" href="#">5</a></li>
+            <li class="page-item"><a class="page-link text-black border border-white" href="#"> ＞ </a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <!-- pagination end-->
   </div>
+
+  <div class="container-fluid py-80 bg-main-bg ">
+    <div class="container w-75 d-flex justify-content-between align-content-center">
+      <p class="fs-32">alysewang@hexschool.com</p>
+      <ul class="list-unstyled d-flex" >
+        <li><a href="#" class=""><i class="bi bi-youtube fs-32 text-secondary me-12 " ></i>
+          </a></li>
+        <li><a href="#"><i class="bi bi-broadcast-pin text-secondary fs-32 me-12 "></i></a></li>
+        <li><a href="#"><i class="bi bi-facebook text-secondary fs-32  me-12 "></i></a></li>
+        <li><a href="#"><i class="bi bi-linkedin text-secondary fs-32  me-12 "></i></a></li>
+        <li><a href="#"><i class="bi bi-instagram fs-32 text-secondary me-12 " ></i></a></li>
+      </ul>
+    </div>
+  </div>
+
+  <FooterView />
 </template>
 
 <script>
 import HeaderView from '@/components/HeaderView.vue';
+import FooterView from '@/components/FooterView.vue';
+
 export default {
   components: {
     HeaderView,
+    FooterView,
   }
 }
 
@@ -230,5 +266,13 @@ export default {
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.page-item:hover {
+  transform: scale(1.5);
+}
+
+li:hover{
+  transform: scale(1.25);
 }
 </style>
